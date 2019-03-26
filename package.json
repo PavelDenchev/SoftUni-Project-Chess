@@ -1,0 +1,26 @@
+{
+  "name": "chessblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelDenchev/SoftUni-Project-ChessBlog.git"
+  },
+  "author": "Pavel Denchev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelDenchev/SoftUni-Project-ChessBlog/issues"
+  },
+  "homepage": "https://github.com/PavelDenchev/SoftUni-Project-ChessBlog#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}

@@ -21,6 +21,10 @@
   "homepage": "https://github.com/PavelDenchev/SoftUni-Project-ChessBlog#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0"
+  },
+  "dependencies": {
+    "gulp-exec": "^3.0.2"
   }
 }

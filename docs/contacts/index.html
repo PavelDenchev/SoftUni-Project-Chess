@@ -1,21 +1,52 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Contacts</title>
-    <link rel="stylesheet" href="/css/styles.css">
-  </head>
-  <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/blog/">Blog</a>
-    </nav>
-    <h1>Contacts</h1>
-    <section>
-      Contacts
-    </section>
-    <footer>
-      &copy; to me
-    </footer>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="nav-button">&#9776</span>
+
+<div id="mySidenav" class="sidenav">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Rules</a></li>
+        <li><a href="#">Glossary</a></li>
+        <li><a href="#">Puzzles</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "225px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<div class="header">
+    <h3>Learn the rules.</h3>
+    <h2>Solve some puzzles.</h2>
+    <h1>Improve your game.</h1>
+</div>
+  </header>
+
+  <section>
+    Contacts
+  </section>
+  
+  <footer>
+  </footer>
+</body>
+
 </html>

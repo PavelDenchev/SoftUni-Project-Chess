@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700');
 
 html {
     font: 16px/1.5 "Libre Baskerville", serif;
-}
-
-.header {
-    font-size: 25px;
-    color: white;
-    text-shadow: 2px 2px black;
 }

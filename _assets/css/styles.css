@@ -6,9 +6,24 @@
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../../images/bg-img.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 14.1rem 0;
+    padding-bottom: 14.7rem;
 }
 
 .header {
     text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-top: 10rem;
+}
+
+.title {
+    display: flex;
+    margin-top: 0.5rem;
+    text-shadow: 2px 2px black;
+}
+
+.title h1 {
+    color: white;
+    font-family: "Cinzel";
 }

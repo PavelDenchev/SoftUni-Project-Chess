@@ -1,6 +1,17 @@
-<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="nav-button">&#9776</span>
+<div class="navigation-bar">
+    <div class="title">
+        <span onclick="openNav()" class="nav-button">&#9776</span>
+        <h1>Chess School</h1>
+    </div>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </nav>
+</div>
 
-<div id="mySidenav" class="sidenav">
+<div id="sidenav" class="sidenav">
     <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
     <ul>
         <li><a href="#">Home</a></li>
@@ -13,18 +24,18 @@
     </ul>
 </div>
 
-<script>
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "225px";
-    }
-
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
-</script>
-
 <div class="header">
     <h3>Learn the rules.</h3>
     <h2>Solve some puzzles.</h2>
     <h1>Improve your game.</h1>
 </div>
+
+<script>
+    function openNav() {
+        document.getElementById("sidenav").style.width = "225px";
+    }
+
+    function closeNav() {
+        document.getElementById("sidenav").style.width = "0";
+    }
+</script>

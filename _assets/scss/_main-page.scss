@@ -1,0 +1,12 @@
+.main-titles {
+    background: $titles-gradient, url(../../images/bg-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    padding: 12.3rem 0;
+    text-align: center;
+    font-size: $text-large;
+    color: $white;
+    text-shadow: $text-shadow;
+    border-bottom: 3px solid $primary-dark;
+}

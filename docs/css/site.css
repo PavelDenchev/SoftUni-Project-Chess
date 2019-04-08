@@ -11,7 +11,7 @@ html {
   box-sizing: inherit; }
 
 html {
-  font: 16px/1.5 "Libre Baskerville", serif; }
+  font: 14px/1.5 "Libre Baskerville", serif; }
 
 header {
   position: -webkit-sticky;
@@ -168,9 +168,68 @@ nav li {
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 12.3rem 0;
+  padding: 14.5rem 0;
   text-align: center;
   font-size: 25px;
   color: white;
   text-shadow: 2px 2px black;
   border-bottom: 3px solid #7F5732; }
+
+.news {
+  left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-left: 1rem;
+  text-align: center; }
+  .news img {
+    width: 25rem;
+    height: 15.625rem;
+    border: 3px solid #7F5732;
+    border-radius: 1rem;
+    margin-top: 2rem; }
+  .news h2,
+  .news p {
+    width: 25rem;
+    margin: 0 auto; }
+  .news h2 {
+    color: #7F5732;
+    padding: 1rem 0; }
+  .news p {
+    color: white; }
+  .news-events {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #CEAA6A;
+    padding: 2rem 0; }
+  .news-wrapper {
+    width: 60%; }
+    .news-wrapper > h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #7F5732;
+      font-size: 25px; }
+
+.events {
+  border: 3px solid #7F5732;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-gap: 1rem;
+  align-items: center;
+  list-style: none;
+  margin: 1rem;
+  padding: 4rem 1rem;
+  text-align: center;
+  color: white; }
+  .events li {
+    margin: 1rem 0; }
+  .events-wrapper {
+    width: 30%;
+    padding-right: 1rem; }
+    .events-wrapper > h1 {
+      font-size: 25px;
+      text-align: center;
+      color: #7F5732;
+      margin-bottom: 3rem; }

@@ -8,7 +8,7 @@
     font-size: $text-large;
     color: $white;
     text-shadow: $text-shadow;
-    border-bottom: 3px solid $primary-dark;
+    border-bottom: $primary-dark-border;
 }
 
 .news {
@@ -23,7 +23,7 @@
     & img {
         width: 25rem;
         height: 15.625rem;
-        border: 3px solid $primary-dark;
+        border: $primary-dark-border;
         border-radius: 1rem;
         margin-top: 2rem;
     }
@@ -49,12 +49,14 @@
         justify-content: space-between;
         background-color: $primary-light;
         padding: 2rem 0;
+        padding-bottom: 15rem;
     }
 
     &-wrapper {
         width: 60%;
 
         &>h1 {
+            font-family: $alt-font;
             text-align: center;
             margin-bottom: 1rem;
             color: $primary-dark;
@@ -64,7 +66,7 @@
 }
 
 .events {
-    border: 3px solid $primary-dark;
+    border: $primary-dark-border;
     border-radius: 1rem;
     display: grid;
     grid-template-columns: 1fr 0.5fr;
@@ -85,10 +87,43 @@
         padding-right: 1rem;
 
         &>h1 {
+            font-family: $alt-font;
             font-size: $text-large;
             text-align: center;
             color: $primary-dark;
             margin-bottom: 3rem;
         }
+    }
+}
+
+.worlds-best {
+    background-color: $primary-light;
+
+    & h1 {
+        font-family: $alt-font;
+        font-size: 50px;
+        text-align: center;
+        color: $primary-dark;
+        padding-bottom: 15rem;
+    }
+}
+
+.players {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: $primary-dark;
+
+    &-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    &-description p {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        line-height: 1.6;
+        color: $white;
     }
 }

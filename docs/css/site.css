@@ -202,10 +202,12 @@ nav li {
     flex-wrap: nowrap;
     justify-content: space-between;
     background-color: #CEAA6A;
-    padding: 2rem 0; }
+    padding: 2rem 0;
+    padding-bottom: 15rem; }
   .news-wrapper {
     width: 60%; }
     .news-wrapper > h1 {
+      font-family: "Cinzel";
       text-align: center;
       margin-bottom: 1rem;
       color: #7F5732;
@@ -229,7 +231,32 @@ nav li {
     width: 30%;
     padding-right: 1rem; }
     .events-wrapper > h1 {
+      font-family: "Cinzel";
       font-size: 25px;
       text-align: center;
       color: #7F5732;
       margin-bottom: 3rem; }
+
+.worlds-best {
+  background-color: #CEAA6A; }
+  .worlds-best h1 {
+    font-family: "Cinzel";
+    font-size: 50px;
+    text-align: center;
+    color: #7F5732;
+    padding-bottom: 15rem; }
+
+.players {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #7F5732; }
+  .players-img img {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .players-description p {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    line-height: 1.6;
+    color: white; }

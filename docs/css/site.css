@@ -93,75 +93,36 @@ nav li {
     color: #7F5732;
     transition: 0.5s; }
 
-.login-reg {
-  background: url(../../images/login-img.jpg);
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../images/footer-bg-img.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 4.23rem 0; }
-  .login-reg-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0; }
+  .footer ul li {
+    list-style: none; }
+  .footer-links {
     display: flex;
-    flex-direction: column;
-    background: rgba(128, 128, 128, 0.4);
-    text-align: center;
-    width: 66%;
-    margin: 0 auto;
-    border: 3px solid gray;
-    border-radius: 1rem; }
-    .login-reg-inner h1 {
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      color: white;
-      text-shadow: 2px 2px black; }
-    .login-reg-inner label {
-      margin: 1rem 0;
-      color: white;
-      text-shadow: 2px 2px black; }
-    .login-reg-inner p {
-      position: relative; }
-      .login-reg-inner p:before {
-        display: block;
-        position: absolute;
-        font-family: "Font Awesome 5 Free";
-        top: 2.5px;
-        left: 37%;
-        font-weight: 900;
-        font-size: 17px;
-        color: black; }
-  .login-reg-btn {
-    width: 15%;
-    margin: 0 auto;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    border-radius: 1rem;
-    padding: 0.5rem 0;
-    font-size: 18px;
-    outline: none;
-    border: 2px solid gray;
-    background-color: white;
-    color: black; }
-    .login-reg-btn:hover {
-      cursor: pointer;
-      background-color: gray;
-      color: white;
-      border: 2px solid white; }
-
-.input {
-  width: 30%;
-  margin: 0 auto;
-  padding: 5px 2.3rem;
-  margin-bottom: 1rem;
-  border-radius: 1rem; }
-  .input:focus {
-    outline: none; }
-
-.name:before {
-  content: "\f007"; }
-
-.password:before {
-  content: "\f023"; }
-
-.email:before {
-  content: "\f0e0"; }
+    margin: auto 0;
+    padding-left: 2rem; }
+    .footer-links a {
+      padding: 0 1rem;
+      text-decoration: none;
+      color: white; }
+  .footer-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem; }
+    .footer-icons i {
+      padding: 0 1rem;
+      font-size: 25px;
+      color: gray; }
+      .footer-icons i:hover {
+        color: white; }
+  .footer p {
+    margin: auto 0;
+    color: white; }
 
 .main-titles {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../../images/bg-img.jpg) no-repeat;
@@ -260,3 +221,73 @@ nav li {
     padding-left: 1rem;
     line-height: 1.6;
     color: white; }
+
+.login-reg {
+  background: url(../../images/login-img.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 4.23rem 0; }
+  .login-reg-inner {
+    display: flex;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.4);
+    text-align: center;
+    width: 66%;
+    margin: 0 auto;
+    border: 3px solid gray;
+    border-radius: 1rem; }
+    .login-reg-inner h1 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: white;
+      text-shadow: 2px 2px black; }
+    .login-reg-inner label {
+      margin: 1rem 0;
+      color: white;
+      text-shadow: 2px 2px black; }
+    .login-reg-inner p {
+      position: relative; }
+      .login-reg-inner p:before {
+        display: block;
+        position: absolute;
+        font-family: "Font Awesome 5 Free";
+        top: 2.5px;
+        left: 37%;
+        font-weight: 900;
+        font-size: 17px;
+        color: black; }
+  .login-reg-btn {
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 0.5rem 0;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid gray;
+    background-color: white;
+    color: black; }
+    .login-reg-btn:hover {
+      cursor: pointer;
+      background-color: gray;
+      color: white;
+      border: 2px solid white; }
+
+.input {
+  width: 30%;
+  margin: 0 auto;
+  padding: 5px 2.3rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem; }
+  .input:focus {
+    outline: none; }
+
+.name:before {
+  content: "\f007"; }
+
+.password:before {
+  content: "\f023"; }
+
+.email:before {
+  content: "\f0e0"; }

@@ -1,0 +1,47 @@
+.footer {
+    background: $footer-gradient, url(../../images/footer-bg-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+    & ul li {
+        list-style: none;
+    }
+
+    &-links {
+        display: flex;
+        margin: auto 0;
+
+         & a {
+            padding: 0 1rem;
+            text-decoration: none;
+            color: $white;
+         }
+
+         padding-left: 2rem;
+    }
+
+    &-icons {
+        display: flex;
+        justify-content: space-between;
+
+        & i {
+            padding: 0 1rem;
+            font-size: $text-large;
+            color: $gray;
+
+            &:hover {
+                color: $white;
+            }
+        }
+
+        padding-right: 2rem;
+    }
+
+    & p {
+        margin: auto 0;
+        color: $white;
+    }
+}

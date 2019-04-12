@@ -1,0 +1,129 @@
+.rules {
+    background-color: $primary-light;
+    color: $white;
+
+    &-main-title {
+        font-size: $text-large;
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+    }
+
+    &-main-title,
+    &-title {
+        text-align: center;
+    }
+
+    &-content {
+        width: 50%;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+}
+
+.piece {
+    position: absolute;
+    width: 60px;
+    height: auto;
+    opacity: 0;
+}
+
+.a2,.b2,.c2,.d2,.e2,.f2,.g2,.h2,.a7,.b7,.c7,.d7,.e7,.f7,.g7,.h7,
+.a1,.a8,.h1,.h8,
+.b1,.b8,.g1,.g8,
+.c1,.c8,.f1,.f8,
+.d1,.d8,.e1,.e8 {
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+
+.a2,.b2,.c2,.d2,.e2,.f2,.g2,.h2,.a7,.b7,.c7,.d7,.e7,.f7,.g7,.h7 {
+    animation-name: appear-first;
+}
+
+.a1,.a8,.h1,.h8 {
+    animation-name: appear-second;
+}
+
+.b1,.b8,.g1,.g8 {
+    animation-name: appear-third;
+}
+
+.c1,.c8,.f1,.f8 {
+    animation-name: appear-fourth;
+}
+
+.d1,.d8,.e1,.e8 {
+    animation-name: appear-fifth;
+}
+
+.a1,.b1,.c1,.d1,.e1,.f1,.g1,.h1 {
+    bottom: 0.5%;
+}
+
+.a8,.b8,.c8,.d8,.e8,.f8,.g8,.h8 {
+    top: 0.5%;
+}
+
+.a2,.b2,.c2,.d2,.e2,.f2,.g2,.h2 {
+    bottom: 13%;
+}
+
+.a7,.b7,.c7,.d7,.e7,.f7,.g7,.h7 {
+    top: 13%;
+}
+
+.a1,
+.a2,
+.a7,
+.a8 {
+    left: 1%;
+}
+.b1,
+.b2,
+.b7,
+.b8 {
+    left: 13.55%;
+}
+
+.c1,
+.c2,
+.c7,
+.c8 {
+    left: 26.1%;
+}
+
+.d1,
+.d2,
+.d7,
+.d8 {
+    left: 38.55%;
+}
+
+.e1,
+.e2,
+.e7,
+.e8 {
+    left: 51.1%;
+}
+
+.f1,
+.f2,
+.f7,
+.f8 {
+    left: 63.7%;
+}
+
+.g1,
+.g2,
+.g7,
+.g8 {
+    left: 76.2%;
+}
+
+.h1,
+.h2,
+.h7,
+.h8 {
+    left: 88.7%;
+}

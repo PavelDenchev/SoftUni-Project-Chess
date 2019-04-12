@@ -1,0 +1,27 @@
+.chessboard {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    margin: 0 auto;
+
+    &,
+    .black-square,
+    .white-square {
+        display: block;
+    }
+}
+
+.black-square,
+.white-square {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.black-square {
+    background-color: #BA8960;
+}
+
+.white-square {
+    background-color: #F2DDB2;
+}

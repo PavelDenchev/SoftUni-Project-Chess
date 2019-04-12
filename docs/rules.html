@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rules</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="nav-bar">
+    <div class="title">
+        <span onclick="openNav()" class="nav-button">&#9776</span>
+        <h1><a href="../index.html">Chess School</a></h1>
+    </div>
+    <nav class="nav-bar-inner">
+        <ul>
+            <li><a href="../login.html">Login</a></li>
+            <li><a href="../register.html">Register</a></li>
+        </ul>
+    </nav>
+    <div id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../rules.html">Rules</a></li>
+            <li><a href="#">Glossary</a></li>
+            <li><a href="#">Puzzles</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("sidenav").style.width = "225px";
+    }
+
+    function closeNav() {
+        document.getElementById("sidenav").style.width = "0";
+    }
+</script>
+  </header>
+
+  <main>
+    <section class="rules">
+    <div class="rules-main-title">
+        <h1>How to Play Chess:</h1>
+        <h2>Rules and Moves</h2>
+    </div>
+
+    <div class="rules-wrapper">
+        <h1 class="rules-title">Setting up the board</h1>
+        <p class="rules-content">At the beginning of the game the board is laid out so that each player has the
+            light color square in the bottom right side. The chess pieces are then arranged the same way each time.
+            The second row (or rank) is filled with pawns. The rooks go in the corners, then the knights next to
+            them, followed by the bishops, and finally the queen, who always goes on her own matching color (white
+            queen on light, black queen on dark), and the king on the remaining square.</p>
+    </div>
+
+    <div class="board-setup">
+        <div class="chessboard">
+    <div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+    </div>
+    <div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+    </div>
+    <div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+    </div>
+    <div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+    </div>
+    <div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+    </div>
+    <div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+    </div>
+    <div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+    </div>
+    <div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+        <div class="black-square"></div>
+        <div class="white-square"></div>
+    </div>
+    <img src="./images/white-pawn.png" class="piece white-pawn a2">
+    <img src="./images/white-pawn.png" class="piece white-pawn b2">
+    <img src="./images/white-pawn.png" class="piece white-pawn c2">
+    <img src="./images/white-pawn.png" class="piece white-pawn d2">
+    <img src="./images/white-pawn.png" class="piece white-pawn e2">
+    <img src="./images/white-pawn.png" class="piece white-pawn f2">
+    <img src="./images/white-pawn.png" class="piece white-pawn g2">
+    <img src="./images/white-pawn.png" class="piece white-pawn h2">
+    <img src="./images/white-rook.png" class="piece white-rook a1">
+    <img src="./images/white-rook.png" class="piece white-rook h1">
+    <img src="./images/white-knight.png" class="piece white-knight b1">
+    <img src="./images/white-knight.png" class="piece white-knight g1">
+    <img src="./images/white-bishop.png" class="piece white-bishop c1">
+    <img src="./images/white-bishop.png" class="piece white-bishop f1">
+    <img src="./images/white-king.png" class="piece white-king e1">
+    <img src="./images/white-queen.png" class="piece white-queen d1">
+    <img src="./images/black-pawn.png" class="piece black-pawn a7">
+    <img src="./images/black-pawn.png" class="piece black-pawn b7">
+    <img src="./images/black-pawn.png" class="piece black-pawn c7">
+    <img src="./images/black-pawn.png" class="piece black-pawn d7">
+    <img src="./images/black-pawn.png" class="piece black-pawn e7">
+    <img src="./images/black-pawn.png" class="piece black-pawn f7">
+    <img src="./images/black-pawn.png" class="piece black-pawn g7">
+    <img src="./images/black-pawn.png" class="piece black-pawn h7">
+    <img src="./images/black-rook.png" class="piece black-rook a8">
+    <img src="./images/black-rook.png" class="piece black-rook h8">
+    <img src="./images/black-knight.png" class="piece black-knight b8">
+    <img src="./images/black-knight.png" class="piece black-knight g8">
+    <img src="./images/black-bishop.png" class="piece black-bishop c8">
+    <img src="./images/black-bishop.png" class="piece black-bishop f8">
+    <img src="./images/black-king.png" class="piece black-king e8">
+    <img src="./images/black-queen.png" class="piece black-queen d8">
+</div>
+    </div>
+</section>
+  </main>
+  
+  <footer class="footer">
+      <ul class="footer-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="#">Rules</a></li>
+    <li><a href="#">Glossary</a></li>
+    <li><a href="#">Puzzles</a></li>
+    <li><a href="#">About</a></li>
+</ul>
+
+<p class="footer-copyright">&copy; Chess School</p>
+
+<ul class="footer-icons">
+    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+    <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitch"></i></a></li>
+</ul>
+  </footer>
+</body>
+
+</html>

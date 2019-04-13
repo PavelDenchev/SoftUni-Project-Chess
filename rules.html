@@ -81,19 +81,27 @@ title: Rules
         </div>
 
         <h1 class="rules-title">Rook moves</h1>
-        <p class="rules-content">The rook is the second most powerful piece. It can move any number of vacant squares in a horizontal or vertical direction. Rooks are valued at 5 points.</p>
+        <p class="rules-content">The rook is the second most powerful piece. It can move any number of vacant squares in a horizontal or vertical direction. They are very powerful when they protect each other. Rooks are worth 5 points each.</p>
 
         <div class="chessboard">
             {% include chessboard.html %}
             <img src="./images/white-rook.png" class="piece white-rook moves-rook">
         </div>
-        
+
         <h1 class="rules-title">Bishop moves</h1>
-        <p class="rules-content">A bishop moves any number of vacant squares in any diagonal direction. Each bishop starts on one color (light or dark) and must always stay on that color. Bishops work well together because they cover up each other's weaknesses. Bishops are worth 3 points.</p>
+        <p class="rules-content">The bishop moves any number of vacant squares in any diagonal direction. Each bishop starts on one color (light or dark) and must always stay on that color. Bishops work well together because they cover up each other's weaknesses. Bishops are worth 3 points each.</p>
 
         <div class="chessboard">
             {% include chessboard.html %}
             <img src="./images/white-bishop.png" class="piece white-bishop moves-bishop">
+        </div>
+
+        <h1 class="rules-title">Knight moves</h1>
+        <p class="rules-content">The knight moves to the nearest square not on the same rank, file, or diagonal. (This can be thought of as moving two squares horizontally then one square vertically, or moving one square horizontally then two squares vertically—i.e. in an "L" pattern.) The knight is not blocked by other pieces: it jumps to the new location. Knights are worth 3 points each.</p>
+
+        <div class="chessboard">
+            {% include chessboard.html %}
+            <img src="./images/white-knight.png" class="piece white-knight moves-knight">
         </div>
     </div>
 </section>

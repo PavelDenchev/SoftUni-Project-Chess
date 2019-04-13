@@ -120,7 +120,7 @@
 .f1,
 .g1,
 .h1 {
-    bottom: 0.5%;
+    bottom: $first-rank;
 }
 
 .a8,
@@ -131,7 +131,7 @@
 .f8,
 .g8,
 .h8 {
-    top: 0.5%;
+    bottom: $eigth-rank;
 }
 
 .a2,
@@ -142,7 +142,7 @@
 .f2,
 .g2,
 .h2 {
-    bottom: 13%;
+    bottom: $second-rank;
 }
 
 .a7,
@@ -153,70 +153,70 @@
 .f7,
 .g7,
 .h7 {
-    top: 13%;
+    bottom: $seventh-rank;
 }
 
 .a1,
 .a2,
 .a7,
 .a8 {
-    left: 1%;
+    left: $column-a;
 }
 
 .b1,
 .b2,
 .b7,
 .b8 {
-    left: 13.55%;
+    left: $column-b;
 }
 
 .c1,
 .c2,
 .c7,
 .c8 {
-    left: 26.1%;
+    left: $column-c;
 }
 
 .d1,
 .d2,
 .d7,
 .d8 {
-    left: 38.55%;
+    left: $column-d;
 }
 
 .e1,
 .e2,
 .e7,
 .e8 {
-    left: 51.1%;
+    left: $column-e;
 }
 
 .f1,
 .f2,
 .f7,
 .f8 {
-    left: 63.7%;
+    left: $column-f;
 }
 
 .g1,
 .g2,
 .g7,
 .g8 {
-    left: 76.2%;
+    left: $column-g;
 }
 
 .h1,
 .h2,
 .h7,
 .h8 {
-    left: 88.7%;
+    left: $column-h;
 }
 
 .moves {
     &-king {
         opacity: 1;
-        left: 38.55%;
-        bottom: 38.5%;
+        left: $column-d;
+        bottom: $fourth-rank;
         animation-name: king-move;
         animation-duration: 8s;
         animation-iteration-count: infinite;
@@ -224,8 +224,8 @@
 
     &-queen {
         opacity: 1;
-        bottom: 13%;
-        left: 76.2%;
+        left: $column-g;
+        bottom: $second-rank;
         animation-name: queen-move;
         animation-duration: 18s;
         animation-iteration-count: infinite;
@@ -233,8 +233,8 @@
 
     &-rook {
         opacity: 1;
-        left: 1%;
-        bottom: 0.5%;
+        left: $column-a;
+        bottom: $first-rank;
         animation-name: rook-move;
         animation-duration: 12s;
         animation-iteration-count: infinite;
@@ -242,9 +242,18 @@
 
     &-bishop {
         opacity: 1;
-        left: 38.55%;
-        bottom: 13%;
+        left: $column-d;
+        bottom: $second-rank;
         animation-name: bishop-move;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+    }
+
+    &-knight {
+        opacity: 1;
+        left: $column-c;
+        bottom: $fourth-rank;
+        animation-name: knight-move;
         animation-duration: 12s;
         animation-iteration-count: infinite;
     }

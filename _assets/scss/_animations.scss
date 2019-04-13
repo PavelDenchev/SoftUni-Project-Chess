@@ -106,123 +106,150 @@
 
 @keyframes king-move {
     0% {
-        left: 38.55%;
-        bottom: 38.5%;
+        left: $column-d;
+        bottom: $fourth-rank;
     }
 
     25% {
-        left: 51.1%;
-        bottom: 51%;
+        left: $column-e;
+        bottom: $fifth-rank;
     }
 
     50% {
-        left: 51.1%;
-        bottom: 38.5%;
+        left: $column-e;
+        bottom: $fourth-rank;
     }
 
     75% {
-        left: 38.55%;
-        bottom: 51%;
+        left: $column-d;
+        bottom: $fifth-rank;
     }
 
     100% {
-        left: 38.55%;
-        bottom: 38.5%;
+        left: $column-d;
+        bottom: $fourth-rank;
     }
 }
 
 @keyframes queen-move {
     0% {
-        left: 76.2%;
-        bottom: 13%;
+        left: $column-g;
+        bottom: $second-rank;
     }
 
     16% {
-        left: 76.2%;
-        bottom: 76%;
+        left: $column-g;
+        bottom: $seventh-rank;
     }
 
     32% {
-        left: 13.55%;
-        bottom: 76%;
+        left: $column-b;
+        bottom: $seventh-rank;
     }
 
     48% {
-        left: 38.55%;
-        bottom: 51%;
+        left: $column-d;
+        bottom: $fifth-rank;
     }
 
     64% {
-        left: 13.55%;
-        bottom: 25.5%;
+        left: $column-b;
+        bottom: $third-rank;
     }
 
     80% {
-        left: 13.55%;
-        bottom: 13%;
+        left: $column-b;
+        bottom: $second-rank;
     }
 
     96% {
-        left: 76.2%;
-        bottom: 13%;
+        left: $column-g;
+        bottom: $second-rank;
     }
 
     100% {
-        left: 76.2%;
-        bottom: 13%;
+        left: $column-g;
+        bottom: $second-rank;
     }
 }
 
 @keyframes rook-move {
     0% {
-        left: 1%;
-        bottom: 0.5%;
+        left: $column-a;
+        bottom: $first-rank;
     }
 
     25% {
-        left: 88.7%;
-        bottom: 0.5%;
+        left: $column-h;
+        bottom: $first-rank;
     }
 
     50% {
-        left: 88.7%;
-        bottom: 88%;
+        left: $column-h;
+        bottom: $eigth-rank;
     }
 
     75% {
-        left: 1%;
-        bottom: 88%;
+        left: $column-a;
+        bottom: $eigth-rank;
     }
 
     100% {
-        left: 1%;
-        bottom: 0.5%;
+        left: $column-a;
+        bottom: $first-rank;
     }
 }
 
 @keyframes bishop-move {
     0% {
-        left: 38.55%;
-        bottom: 13%;
+        left: $column-d;
+        bottom: $second-rank;
     }
 
     25% {
-        left: 13.55%;
-        bottom: 39%;
+        left: $column-b;
+        bottom: $fourth-rank;
     }
 
     50% {
-        left: 51.1%;
-        bottom: 76%;
+        left: $column-e;
+        bottom: $seventh-rank;
     }
 
     75% {
-        left: 76.2%;
-        bottom: 51%;
+        left: $column-g;
+        bottom: $fifth-rank;
     }
 
     100% {
-        left: 38.55%;
-        bottom: 13%;
+        left: $column-d;
+        bottom: $second-rank;
+    }
+}
+
+@keyframes knight-move {
+    0% {
+        left: $column-c;
+        bottom: $fourth-rank;
+    }
+
+    25% {
+        left: $column-d;
+        bottom: $sixth-rank;
+    }
+
+    50% {
+        left: $column-f;
+        bottom: $fifth-rank;
+    }
+
+    75% {
+        left: $column-e;
+        bottom: $third-rank;
+    }
+
+    100% {
+        left: $column-c;
+        bottom: $fourth-rank;
     }
 }

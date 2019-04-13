@@ -103,5 +103,16 @@ title: Rules
             {% include chessboard.html %}
             <img src="./images/white-knight.png" class="piece white-knight moves-knight">
         </div>
+
+        <h1 class="rules-title">Pawn moves</h1>
+        <p class="rules-content">Pawns have the most complex rules of movement. A pawn moves straight forward one square, if that square is vacant. If it has not yet moved, a pawn also has the option of moving two squares straight forward, provided both squares are vacant. Pawns cannot move backwards. Pawns are the only pieces that capture differently from how they move. A pawn can capture an enemy piece on either of the two squares diagonally in front of the pawn (but cannot move to those squares if they are vacant). Pawns are worth 1 point each.</p>
+
+        <div class="chessboard">
+            {% include chessboard.html %}
+            <img src="./images/white-pawn.png" class="piece white-pawn moves-pawn moves-pawn-e2">
+            <img src="./images/white-pawn.png" class="piece white-pawn moves-pawn moves-pawn-d2">
+            <img src="./images/black-pawn.png" class="piece black-pawn moves-pawn moves-pawn-e7">
+            <img src="./images/black-pawn.png" class="piece black-pawn moves-pawn moves-pawn-d7">
+        </div>
     </div>
 </section>

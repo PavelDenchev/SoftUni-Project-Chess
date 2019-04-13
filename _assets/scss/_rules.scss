@@ -257,4 +257,33 @@
         animation-duration: 12s;
         animation-iteration-count: infinite;
     }
+
+    &-pawn {
+        opacity: 1;
+        animation-duration: 21s;
+
+        &-e2 {
+            left: $column-e;
+            bottom: $second-rank;
+            animation-name: e2-pawn-move;
+        }
+
+        &-d2 {
+            left: $column-d;
+            bottom: $second-rank;
+            animation-name: d2-pawn-move;
+        }
+
+        &-e7 {
+            left: $column-e;
+            bottom: $seventh-rank;
+            animation-name: e7-pawn-move;
+        }
+
+        &-d7 {
+            left: $column-d;
+            bottom: $seventh-rank;
+            animation-name: d7-pawn-move;
+        }
+    }
 }

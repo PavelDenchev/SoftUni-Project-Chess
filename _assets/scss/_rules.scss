@@ -1,6 +1,6 @@
 .rules {
     background-color: $primary-light;
-    color: $white;
+    color: $black;
 
     &-main-title {
         font-size: $text-large;
@@ -10,6 +10,7 @@
 
     &-main-title,
     &-title {
+        color: $primary-dark;
         text-align: center;
     }
 
@@ -218,6 +219,15 @@
         bottom: 38.5%;
         animation-name: king-move;
         animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+
+    &-queen {
+        opacity: 1;
+        bottom: 13%;
+        left: 76.2%;
+        animation-name: queen-move;
+        animation-duration: 18s;
         animation-iteration-count: infinite;
     }
 }

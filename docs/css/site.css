@@ -175,6 +175,58 @@ html {
     left: 38.55%;
     bottom: 38.5%; } }
 
+@-webkit-keyframes queen-move {
+  0% {
+    left: 76.2%;
+    bottom: 13%; }
+  16% {
+    left: 76.2%;
+    bottom: 76%; }
+  32% {
+    left: 13.55%;
+    bottom: 76%; }
+  48% {
+    left: 38.55%;
+    bottom: 51%; }
+  64% {
+    left: 13.55%;
+    bottom: 25.5%; }
+  80% {
+    left: 13.55%;
+    bottom: 13%; }
+  96% {
+    left: 76.2%;
+    bottom: 13%; }
+  100% {
+    left: 76.2%;
+    bottom: 13%; } }
+
+@keyframes queen-move {
+  0% {
+    left: 76.2%;
+    bottom: 13%; }
+  16% {
+    left: 76.2%;
+    bottom: 76%; }
+  32% {
+    left: 13.55%;
+    bottom: 76%; }
+  48% {
+    left: 38.55%;
+    bottom: 51%; }
+  64% {
+    left: 13.55%;
+    bottom: 25.5%; }
+  80% {
+    left: 13.55%;
+    bottom: 13%; }
+  96% {
+    left: 76.2%;
+    bottom: 13%; }
+  100% {
+    left: 76.2%;
+    bottom: 13%; } }
+
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -460,12 +512,13 @@ nav li {
 
 .rules {
   background-color: #CEAA6A;
-  color: white; }
+  color: black; }
   .rules-main-title {
     font-size: 25px;
     padding-top: 4rem;
     padding-bottom: 6rem; }
   .rules-main-title, .rules-title {
+    color: #7F5732;
     text-align: center; }
   .rules-content {
     width: 50%;
@@ -661,6 +714,17 @@ nav li {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite; }
 
+.moves-queen {
+  opacity: 1;
+  bottom: 13%;
+  left: 76.2%;
+  -webkit-animation-name: queen-move;
+          animation-name: queen-move;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite; }
+
 .chessboard {
   position: relative;
   width: 560px;
@@ -682,3 +746,15 @@ nav li {
 
 .white-square {
   background-color: #F2DDB2; }
+
+#a1, #b1, #c1, #d1, #e1, #f1, #g1, #h1 {
+  border-bottom: 3px solid #7F5732; }
+
+#a8, #b8, #c8, #d8, #e8, #f8, #g8, #h8 {
+  border-top: 3px solid #7F5732; }
+
+#a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8 {
+  border-left: 3px solid #7F5732; }
+
+#h1, #h2, #h3, #h4, #h5, #h6, #h7, #h8 {
+  border-right: 3px solid #7F5732; }

@@ -130,3 +130,45 @@
         bottom: 38.5%;
     }
 }
+
+@keyframes queen-move {
+    0% {
+        left: 76.2%;
+        bottom: 13%;
+    }
+
+    16% {
+        left: 76.2%;
+        bottom: 76%;
+    }
+
+    32% {
+        left: 13.55%;
+        bottom: 76%;
+    }
+
+    48% {
+        left: 38.55%;
+        bottom: 51%;
+    }
+
+    64% {
+        left: 13.55%;
+        bottom: 25.5%;
+    }
+
+    80% {
+        left: 13.55%;
+        bottom: 13%;
+    }
+
+    96% {
+        left: 76.2%;
+        bottom: 13%;
+    }
+
+    100% {
+        left: 76.2%;
+        bottom: 13%;
+    }
+}

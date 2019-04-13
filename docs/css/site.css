@@ -1131,7 +1131,9 @@ nav li {
 .moves-pawn {
   opacity: 1;
   -webkit-animation-duration: 21s;
-          animation-duration: 21s; }
+          animation-duration: 21s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite; }
   .moves-pawn-e2 {
     left: 51%;
     bottom: 13.5%;

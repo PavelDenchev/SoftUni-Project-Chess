@@ -261,6 +261,7 @@
     &-pawn {
         opacity: 1;
         animation-duration: 21s;
+        animation-iteration-count: infinite;
 
         &-e2 {
             left: $column-e;

@@ -261,6 +261,40 @@ html {
     left: 1%;
     bottom: 0.5%; } }
 
+@-webkit-keyframes bishop-move {
+  0% {
+    left: 38.55%;
+    bottom: 13%; }
+  25% {
+    left: 13.55%;
+    bottom: 39%; }
+  50% {
+    left: 51.1%;
+    bottom: 76%; }
+  75% {
+    left: 76.2%;
+    bottom: 51%; }
+  100% {
+    left: 38.55%;
+    bottom: 13%; } }
+
+@keyframes bishop-move {
+  0% {
+    left: 38.55%;
+    bottom: 13%; }
+  25% {
+    left: 13.55%;
+    bottom: 39%; }
+  50% {
+    left: 51.1%;
+    bottom: 76%; }
+  75% {
+    left: 76.2%;
+    bottom: 51%; }
+  100% {
+    left: 38.55%;
+    bottom: 13%; } }
+
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -765,6 +799,17 @@ nav li {
   bottom: 0.5%;
   -webkit-animation-name: rook-move;
           animation-name: rook-move;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite; }
+
+.moves-bishop {
+  opacity: 1;
+  left: 38.55%;
+  bottom: 13%;
+  -webkit-animation-name: bishop-move;
+          animation-name: bishop-move;
   -webkit-animation-duration: 12s;
           animation-duration: 12s;
   -webkit-animation-iteration-count: infinite;

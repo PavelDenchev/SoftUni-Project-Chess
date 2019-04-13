@@ -199,3 +199,30 @@
         bottom: 0.5%;
     }
 }
+
+@keyframes bishop-move {
+    0% {
+        left: 38.55%;
+        bottom: 13%;
+    }
+
+    25% {
+        left: 13.55%;
+        bottom: 39%;
+    }
+
+    50% {
+        left: 51.1%;
+        bottom: 76%;
+    }
+
+    75% {
+        left: 76.2%;
+        bottom: 51%;
+    }
+
+    100% {
+        left: 38.55%;
+        bottom: 13%;
+    }
+}

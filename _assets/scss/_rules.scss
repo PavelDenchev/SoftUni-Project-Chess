@@ -239,4 +239,13 @@
         animation-duration: 12s;
         animation-iteration-count: infinite;
     }
+
+    &-bishop {
+        opacity: 1;
+        left: 38.55%;
+        bottom: 13%;
+        animation-name: bishop-move;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+    }
 }

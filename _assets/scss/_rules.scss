@@ -230,4 +230,13 @@
         animation-duration: 18s;
         animation-iteration-count: infinite;
     }
+
+    &-rook {
+        opacity: 1;
+        left: 1%;
+        bottom: 0.5%;
+        animation-name: rook-move;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+    }
 }

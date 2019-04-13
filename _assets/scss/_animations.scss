@@ -172,3 +172,30 @@
         bottom: 13%;
     }
 }
+
+@keyframes rook-move {
+    0% {
+        left: 1%;
+        bottom: 0.5%;
+    }
+
+    25% {
+        left: 88.7%;
+        bottom: 0.5%;
+    }
+
+    50% {
+        left: 88.7%;
+        bottom: 88%;
+    }
+
+    75% {
+        left: 1%;
+        bottom: 88%;
+    }
+
+    100% {
+        left: 1%;
+        bottom: 0.5%;
+    }
+}

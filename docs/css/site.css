@@ -227,6 +227,40 @@ html {
     left: 76.2%;
     bottom: 13%; } }
 
+@-webkit-keyframes rook-move {
+  0% {
+    left: 1%;
+    bottom: 0.5%; }
+  25% {
+    left: 88.7%;
+    bottom: 0.5%; }
+  50% {
+    left: 88.7%;
+    bottom: 88%; }
+  75% {
+    left: 1%;
+    bottom: 88%; }
+  100% {
+    left: 1%;
+    bottom: 0.5%; } }
+
+@keyframes rook-move {
+  0% {
+    left: 1%;
+    bottom: 0.5%; }
+  25% {
+    left: 88.7%;
+    bottom: 0.5%; }
+  50% {
+    left: 88.7%;
+    bottom: 88%; }
+  75% {
+    left: 1%;
+    bottom: 88%; }
+  100% {
+    left: 1%;
+    bottom: 0.5%; } }
+
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -722,6 +756,17 @@ nav li {
           animation-name: queen-move;
   -webkit-animation-duration: 18s;
           animation-duration: 18s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite; }
+
+.moves-rook {
+  opacity: 1;
+  left: 1%;
+  bottom: 0.5%;
+  -webkit-animation-name: rook-move;
+          animation-name: rook-move;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite; }
 

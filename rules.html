@@ -73,11 +73,19 @@ title: Rules
         </div>
 
         <h1 class="rules-title">Queen moves</h1>
-        <p class="rules-content">The queen is the most powerful piece. She can move any number of vacant squares in any one straight direction - forward, backward, sideways, or diagonally.</p>
+        <p class="rules-content">The queen is the most powerful piece. She can move any number of vacant squares in any one straight direction - forward, backward, sideways, or diagonally. With the exception of the king the queen is the most valuable piece. She is worth 9 points.</p>
 
         <div class="chessboard">
             {% include chessboard.html %}
             <img src="./images/white-queen.png" class="piece white-queen moves-queen">
+        </div>
+
+        <h1 class="rules-title">Rook moves</h1>
+        <p class="rules-content">The rook is the second most powerful piece. It can move any number of vacant squares in a horizontal or vertical direction. Rooks are valued at 5 points.</p>
+
+        <div class="chessboard">
+            {% include chessboard.html %}
+            <img src="./images/white-rook.png" class="piece white-rook moves-rook">
         </div>
     </div>
 </section>

@@ -103,3 +103,30 @@
         opacity: 1;
     }
 }
+
+@keyframes king-move {
+    0% {
+        left: 38.55%;
+        bottom: 38.5%;
+    }
+
+    25% {
+        left: 51.1%;
+        bottom: 51%;
+    }
+
+    50% {
+        left: 51.1%;
+        bottom: 38.5%;
+    }
+
+    75% {
+        left: 38.55%;
+        bottom: 51%;
+    }
+
+    100% {
+        left: 38.55%;
+        bottom: 38.5%;
+    }
+}

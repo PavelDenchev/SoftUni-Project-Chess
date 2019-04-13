@@ -9,16 +9,69 @@ title: Rules
         <h2>Rules and Moves</h2>
     </div>
 
-    <div class="rules-wrapper">
-        <h1 class="rules-title">Setting up the board</h1>
-        <p class="rules-content">At the beginning of the game the board is laid out so that each player has the
-            light color square in the bottom right side. The chess pieces are then arranged the same way each time.
-            The second row (or rank) is filled with pawns. The rooks go in the corners, then the knights next to
-            them, followed by the bishops, and finally the queen, who always goes on her own matching color (white
-            queen on light, black queen on dark), and the king on the remaining square.</p>
+
+    <h1 class="rules-title">Setting up the board</h1>
+    <p class="rules-content">At the beginning of the game the board is laid out so that each player has the
+        light color square in the bottom right side. The chess pieces are then arranged the same way each time.
+        The second row (or rank) is filled with pawns. The rooks go in the corners, then the knights next to
+        them, followed by the bishops, and finally the queen, who always goes on her own matching color (white
+        queen on light, black queen on dark), and the king on the remaining square.</p>
+
+
+    <div class="chessboard">
+        {% include chessboard.html %}
+        <img src="./images/white-pawn.png" class="piece white-pawn a2">
+        <img src="./images/white-pawn.png" class="piece white-pawn b2">
+        <img src="./images/white-pawn.png" class="piece white-pawn c2">
+        <img src="./images/white-pawn.png" class="piece white-pawn d2">
+        <img src="./images/white-pawn.png" class="piece white-pawn e2">
+        <img src="./images/white-pawn.png" class="piece white-pawn f2">
+        <img src="./images/white-pawn.png" class="piece white-pawn g2">
+        <img src="./images/white-pawn.png" class="piece white-pawn h2">
+        <img src="./images/white-rook.png" class="piece white-rook a1">
+        <img src="./images/white-rook.png" class="piece white-rook h1">
+        <img src="./images/white-knight.png" class="piece white-knight b1">
+        <img src="./images/white-knight.png" class="piece white-knight g1">
+        <img src="./images/white-bishop.png" class="piece white-bishop c1">
+        <img src="./images/white-bishop.png" class="piece white-bishop f1">
+        <img src="./images/white-king.png" class="piece white-king e1">
+        <img src="./images/white-queen.png" class="piece white-queen d1">
+        <img src="./images/black-pawn.png" class="piece black-pawn a7">
+        <img src="./images/black-pawn.png" class="piece black-pawn b7">
+        <img src="./images/black-pawn.png" class="piece black-pawn c7">
+        <img src="./images/black-pawn.png" class="piece black-pawn d7">
+        <img src="./images/black-pawn.png" class="piece black-pawn e7">
+        <img src="./images/black-pawn.png" class="piece black-pawn f7">
+        <img src="./images/black-pawn.png" class="piece black-pawn g7">
+        <img src="./images/black-pawn.png" class="piece black-pawn h7">
+        <img src="./images/black-rook.png" class="piece black-rook a8">
+        <img src="./images/black-rook.png" class="piece black-rook h8">
+        <img src="./images/black-knight.png" class="piece black-knight b8">
+        <img src="./images/black-knight.png" class="piece black-knight g8">
+        <img src="./images/black-bishop.png" class="piece black-bishop c8">
+        <img src="./images/black-bishop.png" class="piece black-bishop f8">
+        <img src="./images/black-king.png" class="piece black-king e8">
+        <img src="./images/black-queen.png" class="piece black-queen d8">
     </div>
 
-    <div class="board-setup">
-        {% include chessboard-setup.html %}
+    <div class="moves">
+        <h1 class="rules-title">Moving the pieces</h1>
+        <p class="rules-content">Each of the different kinds of pieces move in a different way. Pieces cannot move
+            through
+            other pieces (with the exception of the knight), and can never move onto a square with one of their own
+            pieces.
+            However, they can be moved to take the place of an opponent's piece which is then removed from play (this is
+            known as capturing).</p>
+
+        <h1 class="rules-title">King moves</h1>
+        <p class="rules-content">The king is the most important piece, but he is very weak. He can only move one square
+            in
+            any direction - up, down, to the sides, and diagonally. The king may never move himself into check (where he
+            could be captured). When the king is attacked by another piece this is called "check".</p>
+
+        <div class="chessboard">
+            {% include chessboard.html %}
+            <img src="./images/white-king.png" class="piece white-king moves-king">
+        </div>
     </div>
 </section>

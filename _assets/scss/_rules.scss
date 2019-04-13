@@ -27,49 +27,131 @@
     opacity: 0;
 }
 
-.a2,.b2,.c2,.d2,.e2,.f2,.g2,.h2,.a7,.b7,.c7,.d7,.e7,.f7,.g7,.h7,
-.a1,.a8,.h1,.h8,
-.b1,.b8,.g1,.g8,
-.c1,.c8,.f1,.f8,
-.d1,.d8,.e1,.e8 {
+.a2,
+.b2,
+.c2,
+.d2,
+.e2,
+.f2,
+.g2,
+.h2,
+.a7,
+.b7,
+.c7,
+.d7,
+.e7,
+.f7,
+.g7,
+.h7,
+.a1,
+.a8,
+.h1,
+.h8,
+.b1,
+.b8,
+.g1,
+.g8,
+.c1,
+.c8,
+.f1,
+.f8,
+.d1,
+.d8,
+.e1,
+.e8 {
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 
 
-.a2,.b2,.c2,.d2,.e2,.f2,.g2,.h2,.a7,.b7,.c7,.d7,.e7,.f7,.g7,.h7 {
+.a2,
+.b2,
+.c2,
+.d2,
+.e2,
+.f2,
+.g2,
+.h2,
+.a7,
+.b7,
+.c7,
+.d7,
+.e7,
+.f7,
+.g7,
+.h7 {
     animation-name: appear-first;
 }
 
-.a1,.a8,.h1,.h8 {
+.a1,
+.a8,
+.h1,
+.h8 {
     animation-name: appear-second;
 }
 
-.b1,.b8,.g1,.g8 {
+.b1,
+.b8,
+.g1,
+.g8 {
     animation-name: appear-third;
 }
 
-.c1,.c8,.f1,.f8 {
+.c1,
+.c8,
+.f1,
+.f8 {
     animation-name: appear-fourth;
 }
 
-.d1,.d8,.e1,.e8 {
+.d1,
+.d8,
+.e1,
+.e8 {
     animation-name: appear-fifth;
 }
 
-.a1,.b1,.c1,.d1,.e1,.f1,.g1,.h1 {
+.a1,
+.b1,
+.c1,
+.d1,
+.e1,
+.f1,
+.g1,
+.h1 {
     bottom: 0.5%;
 }
 
-.a8,.b8,.c8,.d8,.e8,.f8,.g8,.h8 {
+.a8,
+.b8,
+.c8,
+.d8,
+.e8,
+.f8,
+.g8,
+.h8 {
     top: 0.5%;
 }
 
-.a2,.b2,.c2,.d2,.e2,.f2,.g2,.h2 {
+.a2,
+.b2,
+.c2,
+.d2,
+.e2,
+.f2,
+.g2,
+.h2 {
     bottom: 13%;
 }
 
-.a7,.b7,.c7,.d7,.e7,.f7,.g7,.h7 {
+.a7,
+.b7,
+.c7,
+.d7,
+.e7,
+.f7,
+.g7,
+.h7 {
     top: 13%;
 }
 
@@ -79,6 +161,7 @@
 .a8 {
     left: 1%;
 }
+
 .b1,
 .b2,
 .b7,
@@ -126,4 +209,15 @@
 .h7,
 .h8 {
     left: 88.7%;
+}
+
+.moves {
+    &-king {
+        opacity: 1;
+        left: 38.55%;
+        bottom: 38.5%;
+        animation-name: king-move;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
 }

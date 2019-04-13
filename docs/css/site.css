@@ -141,6 +141,40 @@ html {
   100% {
     opacity: 1; } }
 
+@-webkit-keyframes king-move {
+  0% {
+    left: 38.55%;
+    bottom: 38.5%; }
+  25% {
+    left: 51.1%;
+    bottom: 51%; }
+  50% {
+    left: 51.1%;
+    bottom: 38.5%; }
+  75% {
+    left: 38.55%;
+    bottom: 51%; }
+  100% {
+    left: 38.55%;
+    bottom: 38.5%; } }
+
+@keyframes king-move {
+  0% {
+    left: 38.55%;
+    bottom: 38.5%; }
+  25% {
+    left: 51.1%;
+    bottom: 51%; }
+  50% {
+    left: 51.1%;
+    bottom: 38.5%; }
+  75% {
+    left: 38.55%;
+    bottom: 51%; }
+  100% {
+    left: 38.55%;
+    bottom: 38.5%; } }
+
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -444,46 +478,128 @@ nav li {
   height: auto;
   opacity: 0; }
 
-.a2, .b2, .c2, .d2, .e2, .f2, .g2, .h2, .a7, .b7, .c7, .d7, .e7, .f7, .g7, .h7,
-.a1, .a8, .h1, .h8,
-.b1, .b8, .g1, .g8,
-.c1, .c8, .f1, .f8,
-.d1, .d8, .e1, .e8 {
+.a2,
+.b2,
+.c2,
+.d2,
+.e2,
+.f2,
+.g2,
+.h2,
+.a7,
+.b7,
+.c7,
+.d7,
+.e7,
+.f7,
+.g7,
+.h7,
+.a1,
+.a8,
+.h1,
+.h8,
+.b1,
+.b8,
+.g1,
+.g8,
+.c1,
+.c8,
+.f1,
+.f8,
+.d1,
+.d8,
+.e1,
+.e8 {
   -webkit-animation-duration: 15s;
           animation-duration: 15s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite; }
 
-.a2, .b2, .c2, .d2, .e2, .f2, .g2, .h2, .a7, .b7, .c7, .d7, .e7, .f7, .g7, .h7 {
+.a2,
+.b2,
+.c2,
+.d2,
+.e2,
+.f2,
+.g2,
+.h2,
+.a7,
+.b7,
+.c7,
+.d7,
+.e7,
+.f7,
+.g7,
+.h7 {
   -webkit-animation-name: appear-first;
           animation-name: appear-first; }
 
-.a1, .a8, .h1, .h8 {
+.a1,
+.a8,
+.h1,
+.h8 {
   -webkit-animation-name: appear-second;
           animation-name: appear-second; }
 
-.b1, .b8, .g1, .g8 {
+.b1,
+.b8,
+.g1,
+.g8 {
   -webkit-animation-name: appear-third;
           animation-name: appear-third; }
 
-.c1, .c8, .f1, .f8 {
+.c1,
+.c8,
+.f1,
+.f8 {
   -webkit-animation-name: appear-fourth;
           animation-name: appear-fourth; }
 
-.d1, .d8, .e1, .e8 {
+.d1,
+.d8,
+.e1,
+.e8 {
   -webkit-animation-name: appear-fifth;
           animation-name: appear-fifth; }
 
-.a1, .b1, .c1, .d1, .e1, .f1, .g1, .h1 {
+.a1,
+.b1,
+.c1,
+.d1,
+.e1,
+.f1,
+.g1,
+.h1 {
   bottom: 0.5%; }
 
-.a8, .b8, .c8, .d8, .e8, .f8, .g8, .h8 {
+.a8,
+.b8,
+.c8,
+.d8,
+.e8,
+.f8,
+.g8,
+.h8 {
   top: 0.5%; }
 
-.a2, .b2, .c2, .d2, .e2, .f2, .g2, .h2 {
+.a2,
+.b2,
+.c2,
+.d2,
+.e2,
+.f2,
+.g2,
+.h2 {
   bottom: 13%; }
 
-.a7, .b7, .c7, .d7, .e7, .f7, .g7, .h7 {
+.a7,
+.b7,
+.c7,
+.d7,
+.e7,
+.f7,
+.g7,
+.h7 {
   top: 13%; }
 
 .a1,
@@ -534,11 +650,22 @@ nav li {
 .h8 {
   left: 88.7%; }
 
+.moves-king {
+  opacity: 1;
+  left: 38.55%;
+  bottom: 38.5%;
+  -webkit-animation-name: king-move;
+          animation-name: king-move;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite; }
+
 .chessboard {
   position: relative;
   width: 560px;
   height: 560px;
-  margin: 0 auto; }
+  margin: 5rem auto; }
   .chessboard,
   .chessboard .black-square,
   .chessboard .white-square {

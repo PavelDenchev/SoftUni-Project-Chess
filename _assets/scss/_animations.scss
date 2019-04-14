@@ -186,12 +186,12 @@
 
     50% {
         left: $column-h;
-        bottom: $eigth-rank;
+        bottom: $eight-rank;
     }
 
     75% {
         left: $column-a;
-        bottom: $eigth-rank;
+        bottom: $eight-rank;
     }
 
     100% {
@@ -451,6 +451,153 @@
         left: $column-d;
         bottom: $fifth-rank;
         opacity: 0;
+    }
+
+    100% {
+        left: $column-d;
+        bottom: $fifth-rank;
+        opacity: 0;
+    }
+}
+
+@keyframes white-rook-castle {
+    0% {
+        left: $column-h;
+        bottom: $first-rank;
+    }
+
+    50% {
+        left: $column-f;
+        bottom: $first-rank;
+    }
+
+    100% {
+        left: $column-f;
+        bottom: $first-rank;
+    }
+}
+
+@keyframes white-king-castle {
+    0% {
+        left: $column-e;
+        bottom: $first-rank;
+    }
+
+    50% {
+        left: $column-g;
+        bottom: $first-rank;
+    }
+
+    100% {
+        left: $column-g;
+        bottom: $first-rank;
+    }
+}
+
+@keyframes black-rook-castle {
+    0% {
+        left: $column-a;
+        bottom: $eight-rank;
+    }
+
+    50% {
+        left: $column-a;
+        bottom: $eight-rank;
+    }
+
+    100% {
+        left: $column-d;
+        bottom: $eight-rank;
+    }
+}
+
+@keyframes black-king-castle {
+    0% {
+        left: $column-e;
+        bottom: $eight-rank;
+    }
+
+    50% {
+        left: $column-e;
+        bottom: $eight-rank;
+    }
+
+    100% {
+        left: $column-c;
+        bottom: $eight-rank;
+    }
+}
+
+@keyframes promotion-pawn {
+    0% {
+        left: $column-e;
+        bottom: $seventh-rank;
+    }
+
+    50% {
+        left: $column-e;
+        bottom: $eight-rank;
+        opacity: 1;
+    }
+
+    75% {
+        left: $column-e;
+        bottom: $eight-rank;
+        opacity: 1;
+    }
+
+    100% {
+        left: $column-e;
+        bottom: $eight-rank;
+        opacity: 0;
+    }
+}
+
+@keyframes promotion-queen {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes en-passant-white {
+    0% {
+        left: $column-e;
+        bottom: $fifth-rank;
+    }
+
+    50% {
+        left: $column-e;
+        bottom: $fifth-rank;
+    }
+
+    100% {
+        left: $column-d;
+        bottom: $sixth-rank;
+    }
+}
+
+@keyframes en-passant-black {
+    0% {
+        left: $column-d;
+        bottom: $seventh-rank;
+    }
+
+    50% {
+        left: $column-d;
+        bottom: $fifth-rank;
+        opacity: 1;
     }
 
     100% {

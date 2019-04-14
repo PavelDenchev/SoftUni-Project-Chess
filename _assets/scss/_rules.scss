@@ -131,7 +131,7 @@
 .f8,
 .g8,
 .h8 {
-    bottom: $eigth-rank;
+    bottom: $eight-rank;
 }
 
 .a2,
@@ -286,5 +286,75 @@
             bottom: $seventh-rank;
             animation-name: d7-pawn-move;
         }
+    }
+}
+
+.castling {
+    opacity: 1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+    &-white {
+        &-rook {
+            left: $column-h;
+            bottom: $first-rank;
+            animation-name: white-rook-castle;
+        }
+
+        &-king {
+            left: $column-e;
+            bottom: $first-rank;
+            animation-name: white-king-castle;
+        }
+    }
+
+    &-black {
+        &-rook {
+            left: $column-a;
+            bottom: $eight-rank;
+            animation-name: black-rook-castle;
+        }
+
+        &-king {
+            left: $column-e;
+            bottom: $eight-rank;
+            animation-name: black-king-castle;
+        }
+    }
+}
+
+.promotion {
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+    &-pawn {
+        opacity: 1;
+        left: $column-e;
+        bottom: $seventh-rank;
+        animation-name: promotion-pawn;
+    }
+
+    &-queen {
+        left: $column-e;
+        bottom: $eight-rank;
+        animation-name: promotion-queen;
+    }
+}
+
+.en-passant {
+    opacity: 1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+    &-white-pawn {
+        left: $column-e;
+        bottom: $fifth-rank;
+        animation-name: en-passant-white;
+    }
+
+    &-black-pawn {
+        left: $column-d;
+        bottom: $seventh-rank;
+        animation-name: en-passant-black;
     }
 }

@@ -597,6 +597,196 @@ html {
     bottom: 51%;
     opacity: 0; } }
 
+@-webkit-keyframes white-rook-castle {
+  0% {
+    left: 88.5%;
+    bottom: 0.5%; }
+  50% {
+    left: 63.5%;
+    bottom: 0.5%; }
+  100% {
+    left: 63.5%;
+    bottom: 0.5%; } }
+
+@keyframes white-rook-castle {
+  0% {
+    left: 88.5%;
+    bottom: 0.5%; }
+  50% {
+    left: 63.5%;
+    bottom: 0.5%; }
+  100% {
+    left: 63.5%;
+    bottom: 0.5%; } }
+
+@-webkit-keyframes white-king-castle {
+  0% {
+    left: 51%;
+    bottom: 0.5%; }
+  50% {
+    left: 76%;
+    bottom: 0.5%; }
+  100% {
+    left: 76%;
+    bottom: 0.5%; } }
+
+@keyframes white-king-castle {
+  0% {
+    left: 51%;
+    bottom: 0.5%; }
+  50% {
+    left: 76%;
+    bottom: 0.5%; }
+  100% {
+    left: 76%;
+    bottom: 0.5%; } }
+
+@-webkit-keyframes black-rook-castle {
+  0% {
+    left: 1.1%;
+    bottom: 88%; }
+  50% {
+    left: 1.1%;
+    bottom: 88%; }
+  100% {
+    left: 38.55%;
+    bottom: 88%; } }
+
+@keyframes black-rook-castle {
+  0% {
+    left: 1.1%;
+    bottom: 88%; }
+  50% {
+    left: 1.1%;
+    bottom: 88%; }
+  100% {
+    left: 38.55%;
+    bottom: 88%; } }
+
+@-webkit-keyframes black-king-castle {
+  0% {
+    left: 51%;
+    bottom: 88%; }
+  50% {
+    left: 51%;
+    bottom: 88%; }
+  100% {
+    left: 26%;
+    bottom: 88%; } }
+
+@keyframes black-king-castle {
+  0% {
+    left: 51%;
+    bottom: 88%; }
+  50% {
+    left: 51%;
+    bottom: 88%; }
+  100% {
+    left: 26%;
+    bottom: 88%; } }
+
+@-webkit-keyframes promotion-pawn {
+  0% {
+    left: 51%;
+    bottom: 76%; }
+  50% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 1; }
+  75% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 1; }
+  100% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 0; } }
+
+@keyframes promotion-pawn {
+  0% {
+    left: 51%;
+    bottom: 76%; }
+  50% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 1; }
+  75% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 1; }
+  100% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 0; } }
+
+@-webkit-keyframes promotion-queen {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes promotion-queen {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes en-passant-white {
+  0% {
+    left: 51%;
+    bottom: 51%; }
+  50% {
+    left: 51%;
+    bottom: 51%; }
+  100% {
+    left: 38.55%;
+    bottom: 63.5%; } }
+
+@keyframes en-passant-white {
+  0% {
+    left: 51%;
+    bottom: 51%; }
+  50% {
+    left: 51%;
+    bottom: 51%; }
+  100% {
+    left: 38.55%;
+    bottom: 63.5%; } }
+
+@-webkit-keyframes en-passant-black {
+  0% {
+    left: 38.55%;
+    bottom: 76%; }
+  50% {
+    left: 38.55%;
+    bottom: 51%;
+    opacity: 1; }
+  100% {
+    left: 38.55%;
+    bottom: 51%;
+    opacity: 0; } }
+
+@keyframes en-passant-black {
+  0% {
+    left: 38.55%;
+    bottom: 76%; }
+  50% {
+    left: 38.55%;
+    bottom: 51%;
+    opacity: 1; }
+  100% {
+    left: 38.55%;
+    bottom: 51%;
+    opacity: 0; } }
+
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -1154,6 +1344,67 @@ nav li {
     bottom: 76%;
     -webkit-animation-name: d7-pawn-move;
             animation-name: d7-pawn-move; }
+
+.castling {
+  opacity: 1;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite; }
+  .castling-white-rook {
+    left: 88.5%;
+    bottom: 0.5%;
+    -webkit-animation-name: white-rook-castle;
+            animation-name: white-rook-castle; }
+  .castling-white-king {
+    left: 51%;
+    bottom: 0.5%;
+    -webkit-animation-name: white-king-castle;
+            animation-name: white-king-castle; }
+  .castling-black-rook {
+    left: 1.1%;
+    bottom: 88%;
+    -webkit-animation-name: black-rook-castle;
+            animation-name: black-rook-castle; }
+  .castling-black-king {
+    left: 51%;
+    bottom: 88%;
+    -webkit-animation-name: black-king-castle;
+            animation-name: black-king-castle; }
+
+.promotion {
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite; }
+  .promotion-pawn {
+    opacity: 1;
+    left: 51%;
+    bottom: 76%;
+    -webkit-animation-name: promotion-pawn;
+            animation-name: promotion-pawn; }
+  .promotion-queen {
+    left: 51%;
+    bottom: 88%;
+    -webkit-animation-name: promotion-queen;
+            animation-name: promotion-queen; }
+
+.en-passant {
+  opacity: 1;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite; }
+  .en-passant-white-pawn {
+    left: 51%;
+    bottom: 51%;
+    -webkit-animation-name: en-passant-white;
+            animation-name: en-passant-white; }
+  .en-passant-black-pawn {
+    left: 38.55%;
+    bottom: 76%;
+    -webkit-animation-name: en-passant-black;
+            animation-name: en-passant-black; }
 
 .chessboard {
   position: relative;

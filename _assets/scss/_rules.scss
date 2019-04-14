@@ -19,6 +19,11 @@
         margin: 0 auto;
         padding: 2rem 0;
     }
+
+    &-checkmating {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
 }
 
 .piece {
@@ -356,5 +361,58 @@
         left: $column-d;
         bottom: $seventh-rank;
         animation-name: en-passant-black;
+    }
+}
+
+.mate {
+    opacity: 1;
+
+    &-white-king {
+        left: $column-g;
+        bottom: $first-rank;
+    }
+
+    &-white-rook {
+        left: $column-h;
+        bottom: $seventh-rank;
+    }
+
+    &-white-knight {
+        left: $column-f;
+        bottom: $sixth-rank;
+    }
+
+    &-black-king {
+        left: $column-h;
+        bottom: $eight-rank;
+    }
+
+    &-black-pawn {
+        left: $column-g;
+        bottom: $fifth-rank;
+    }
+}
+
+.stalemate {
+    opacity: 1;
+
+    &-white-king {
+        left: $column-e;
+        bottom: $third-rank;
+    }
+
+    &-white-queen {
+        left: $column-d;
+        bottom: $fifth-rank;
+    }
+
+    &-white-bishop {
+        left: $column-e;
+        bottom: $fifth-rank;
+    }
+
+    &-black-king {
+        left: $column-c;
+        bottom: $eight-rank;
     }
 }

@@ -1084,6 +1084,9 @@ nav li {
     width: 50%;
     margin: 0 auto;
     padding: 2rem 0; }
+  .rules-checkmating {
+    margin-top: 5rem;
+    margin-bottom: 2rem; }
 
 .piece {
   position: absolute;
@@ -1405,6 +1408,39 @@ nav li {
     bottom: 76%;
     -webkit-animation-name: en-passant-black;
             animation-name: en-passant-black; }
+
+.mate {
+  opacity: 1; }
+  .mate-white-king {
+    left: 76%;
+    bottom: 0.5%; }
+  .mate-white-rook {
+    left: 88.5%;
+    bottom: 76%; }
+  .mate-white-knight {
+    left: 63.5%;
+    bottom: 63.5%; }
+  .mate-black-king {
+    left: 88.5%;
+    bottom: 88%; }
+  .mate-black-pawn {
+    left: 76%;
+    bottom: 51%; }
+
+.stalemate {
+  opacity: 1; }
+  .stalemate-white-king {
+    left: 51%;
+    bottom: 25.5%; }
+  .stalemate-white-queen {
+    left: 38.55%;
+    bottom: 51%; }
+  .stalemate-white-bishop {
+    left: 51%;
+    bottom: 51%; }
+  .stalemate-black-king {
+    left: 26%;
+    bottom: 88%; }
 
 .chessboard {
   position: relative;

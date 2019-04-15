@@ -1442,6 +1442,45 @@ nav li {
     left: 26%;
     bottom: 88%; }
 
+.glossary {
+  background-color: #CEAA6A;
+  padding-bottom: 3rem; }
+  .glossary a {
+    color: black;
+    text-decoration: underline; }
+    .glossary a:hover {
+      color: white; }
+  .glossary-title {
+    font-size: 25px;
+    text-align: center;
+    color: #7F5732;
+    padding: 1rem 0; }
+  .glossary-contents {
+    background-color: #CEAA6A;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15%;
+    width: 75%;
+    margin: 2rem auto;
+    border: 3px solid #7F5732;
+    border-radius: 1rem;
+    padding: 1rem 0; }
+    .glossary-contents-list {
+      display: flex;
+      list-style: none;
+      justify-content: space-around; }
+      .glossary-contents-list li a {
+        color: #7F5732;
+        text-decoration: none; }
+  .glossary-content {
+    margin: 0 5rem; }
+  .glossary-letter {
+    font-size: 25px;
+    color: #7F5732;
+    padding: 1rem 0; }
+  .glossary-term {
+    margin: 1rem 0; }
+
 .chessboard {
   position: relative;
   width: 560px;

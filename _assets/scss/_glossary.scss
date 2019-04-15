@@ -1,0 +1,55 @@
+.glossary {
+    background-color: $primary-light;
+    padding-bottom: 3rem;
+
+    & a {
+        color: black;
+        text-decoration: underline;
+        &:hover {
+            color: $white;
+        }
+    }
+
+    &-title {
+        font-size: $text-large;
+        text-align: center;
+        color: $primary-dark;
+        padding: 1rem 0;
+    }
+
+    &-contents {
+        background-color: $primary-light;
+        position: sticky;
+        top: 15%;
+        width: 75%;
+        margin: 2rem auto;
+        border: $primary-dark-border;
+        border-radius: 1rem;
+        padding: 1rem 0;
+        
+        &-list {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+
+            & li a {
+                color: $primary-dark;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &-content {
+        margin: 0 5rem;
+    }
+
+    &-letter {
+        font-size: $text-large;
+        color: $primary-dark;
+        padding: 1rem 0;
+    }
+
+    &-term {
+        margin: 1rem 0;
+    }
+}

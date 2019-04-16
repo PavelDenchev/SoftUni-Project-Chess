@@ -1,0 +1,125 @@
+---
+layout: page
+title: Two Move Puzzles
+---
+
+<div class="puzzles">
+    <div class="puzzles-title">
+        <h1>Two Move Puzzles</h1>
+    </div>
+
+    <div class="puzzles-two-moves">
+        <div class="puzzles-two-moves-first-puzzle-wrapper">
+            <div class="chessboard">
+                {% include chessboard.html %}
+                <img src="./images/white-pawn.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-a2" alt="pic">
+                <img src="./images/white-pawn.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-b2" alt="pic">
+                <img src="./images/white-pawn.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-e5" alt="pic">
+                <img src="./images/white-pawn.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-f4" alt="pic">
+                <img src="./images/white-pawn.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-h2" alt="pic">
+                <img src="./images/white-king.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-h1" alt="pic">
+                <img src="./images/white-queen.png" id="two-move-first-puzzle-white-queen"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-f5" alt="pic">
+                <img src="./images/white-rook.png" id="two-move-first-puzzle-white-rook"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-g1" alt="pic">
+                <img src="./images/white-knight.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-f6" alt="pic">
+                <img src="./images/black-pawn.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-a6" alt="pic">
+                <img src="./images/black-pawn.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-a7" alt="pic">
+                <img src="./images/black-king.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-h8" alt="pic">
+                <img src="./images/black-queen.png" id="two-move-first-puzzle-black-queen"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-h7" alt="pic">
+                <img src="./images/black-rook.png" id="two-move-first-puzzle-black-rook"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-c7" alt="pic">
+                <img src="./images/black-knight.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-c4" alt="pic">
+                <img src="./images/black-knight.png"
+                    class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-d4" alt="pic">
+            </div>
+            <button class="puzzles-two-moves-button" onclick="twoMoveFirstPuzzle()">Solution</button>
+        </div>
+        <div class="puzzles-two-moves-second-puzzle-wrapper">
+            <div class="chessboard">
+                {% include chessboard.html %}
+                <img src="./images/white-pawn.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-a2" alt="pic">
+                <img src="./images/white-pawn.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-f2" alt="pic">
+                <img src="./images/white-pawn.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-g2" alt="pic">
+                <img src="./images/white-pawn.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-h2" alt="pic">
+                <img src="./images/white-king.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-g1" alt="pic">
+                <img src="./images/white-queen.png" id="two-move-second-puzzle-white-queen"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-e6" alt="pic">
+                <img src="./images/white-rook.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-a1" alt="pic">
+                <img src="./images/white-rook.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-d1" alt="pic">
+                <img src="./images/white-knight.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-f6" alt="pic">
+                <img src="./images/white-knight.png" id="two-move-second-puzzle-white-knight"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-g5" alt="pic">
+                <img src="./images/black-pawn.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-a7" alt="pic">
+                <img src="./images/black-pawn.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-b7" alt="pic">
+                <img src="./images/black-pawn.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-c7" alt="pic">
+                <img src="./images/black-pawn.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-e5" alt="pic">
+                <img src="./images/black-pawn.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-h7" alt="pic">
+                <img src="./images/black-king.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-f8" alt="pic">
+                <img src="./images/black-queen.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-a3" alt="pic">
+                <img src="./images/black-rook.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-a8" alt="pic">
+                <img src="./images/black-rook.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-h8" alt="pic">
+                <img src="./images/black-knight.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-e7" alt="pic">
+                <img src="./images/black-knight.png" id="two-move-second-puzzle-black-knight"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-d8" alt="pic">
+                <img src="./images/black-bishop.png"
+                    class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-d4" alt="pic">
+            </div>
+            <button onclick="twoMoveSecondPuzzle()" class="puzzles-two-moves-button">Solution</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function twoMoveFirstPuzzle() {
+        let whiteQueen = document.getElementById("two-move-first-puzzle-white-queen");
+        whiteQueen.classList.add("two-move-first-puzzle-white-queen");
+        let whiteRook = document.getElementById("two-move-first-puzzle-white-rook");
+        whiteRook.classList.add("two-move-first-puzzle-white-rook");
+        let blackQueen = document.getElementById("two-move-first-puzzle-black-queen");
+        blackQueen.classList.add("two-move-first-puzzle-black-queen");
+        let blackRook = document.getElementById("two-move-first-puzzle-black-rook");
+        blackRook.classList.add("two-move-first-puzzle-black-rook");
+    }
+</script>
+
+<script>
+    function twoMoveSecondPuzzle() {
+        let whiteQueenSecondPuzzle = document.getElementById("two-move-second-puzzle-white-queen");
+        whiteQueenSecondPuzzle.classList.add("two-move-second-puzzle-white-queen");
+        let whiteKnightSecondPuzzle = document.getElementById("two-move-second-puzzle-white-knight");
+        whiteKnightSecondPuzzle.classList.add("two-move-second-puzzle-white-knight");
+        let blackKnightSecondPuzzle = document.getElementById("two-move-second-puzzle-black-knight");
+        blackKnightSecondPuzzle.classList.add("two-move-second-puzzle-black-knight");
+    }
+</script>

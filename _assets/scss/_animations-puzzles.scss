@@ -1,0 +1,150 @@
+@keyframes two-move-first-puzzle-white-queen {
+    0% {
+        left: $column-f;
+        bottom: $fifth-rank;
+    }
+
+    33% {
+        left: $column-h;
+        bottom: $seventh-rank;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    66% {
+        left: $column-h;
+        bottom: $seventh-rank;
+        opacity: 0;
+    }
+
+    100% {
+        left: $column-h;
+        bottom: $seventh-rank;
+        opacity: 0;
+    }
+}
+
+@keyframes two-move-first-puzzle-black-queen {
+    33% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes two-move-first-puzzle-black-rook {
+    0% {
+        left: $column-c;
+        bottom: $seventh-rank;
+    }
+
+    33% {
+        left: $column-c;
+        bottom: $seventh-rank;
+    }
+
+    66% {
+        left: $column-h;
+        bottom: $seventh-rank;
+    }
+
+    100% {
+        left: $column-h;
+        bottom: $seventh-rank;
+    }
+}
+
+@keyframes two-move-first-puzzle-white-rook {
+    0% {
+        left: $column-g;
+        bottom: $first-rank;
+    }
+
+    33% {
+        left: $column-g;
+        bottom: $first-rank;
+    }
+
+    66% {
+        left: $column-g;
+        bottom: $first-rank;
+    }
+
+    100% {
+        left: $column-g;
+        bottom: $eight-rank;
+    }
+}
+
+@keyframes two-move-second-puzzle-white-queen {
+    0% {
+        left: $column-e;
+        bottom: $sixth-rank;
+    }
+
+    33% {
+        left: $column-f;
+        bottom: $seventh-rank;
+        opacity: 1;
+    }
+
+    66% {
+        left: $column-f;
+        bottom: $seventh-rank;
+        opacity: 0;
+    }
+
+    100% {
+        left: $column-f;
+        bottom: $seventh-rank;
+        opacity: 0;
+    }
+}
+
+@keyframes two-move-second-puzzle-white-knight {
+    0% {
+        left: $column-g;
+        bottom: $fifth-rank;
+    }
+
+    33% {
+        left: $column-g;
+        bottom: $fifth-rank;
+    }
+
+    66% {
+        left: $column-g;
+        bottom: $fifth-rank;
+    }
+
+    100% {
+        left: $column-e;
+        bottom: $sixth-rank;
+    }
+}
+
+@keyframes two-move-second-puzzle-black-knight {
+    0% {
+        left: $column-d;
+        bottom: $eight-rank;
+    }
+
+    33% {
+        left: $column-d;
+        bottom: $eight-rank;
+    }
+
+    66% {
+        left: $column-f;
+        bottom: $seventh-rank;
+    }
+
+    100% {
+        left: $column-f;
+        bottom: $seventh-rank;
+    }
+}

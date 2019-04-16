@@ -2,7 +2,7 @@
     position: relative;
     width: 560px;
     height: 560px;
-    margin: 5rem auto;
+    margin: 2rem auto;
 
     &,
     .black-square,
@@ -19,25 +19,63 @@
 }
 
 .black-square {
-    background-color: #BA8960;
+    background-color: $dark-square;
 }
 
 .white-square {
-    background-color: #F2DDB2;
+    background-color: $light-square;
 }
 
-#a1,#b1,#c1,#d1,#e1,#f1,#g1,#h1 {
+.piece {
+    position: absolute;
+    width: 60px;
+    height: auto;
+
+    &-rules {
+        opacity: 0;
+    }
+}
+
+#a1,
+#b1,
+#c1,
+#d1,
+#e1,
+#f1,
+#g1,
+#h1 {
     border-bottom: $primary-dark-border;
 }
 
-#a8,#b8,#c8,#d8,#e8,#f8,#g8,#h8 {
+#a8,
+#b8,
+#c8,
+#d8,
+#e8,
+#f8,
+#g8,
+#h8 {
     border-top: $primary-dark-border;
 }
 
-#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8 {
+#a1,
+#a2,
+#a3,
+#a4,
+#a5,
+#a6,
+#a7,
+#a8 {
     border-left: $primary-dark-border;
 }
 
-#h1,#h2,#h3,#h4,#h5,#h6,#h7,#h8 {
+#h1,
+#h2,
+#h3,
+#h4,
+#h5,
+#h6,
+#h7,
+#h8 {
     border-right: $primary-dark-border;
 }

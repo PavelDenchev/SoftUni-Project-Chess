@@ -26,13 +26,6 @@
     }
 }
 
-.piece {
-    position: absolute;
-    width: 60px;
-    height: auto;
-    opacity: 0;
-}
-
 .a2,
 .b2,
 .c2,
@@ -219,7 +212,6 @@
 
 .moves {
     &-king {
-        opacity: 1;
         left: $column-d;
         bottom: $fourth-rank;
         animation-name: king-move;
@@ -228,7 +220,6 @@
     }
 
     &-queen {
-        opacity: 1;
         left: $column-g;
         bottom: $second-rank;
         animation-name: queen-move;
@@ -237,7 +228,6 @@
     }
 
     &-rook {
-        opacity: 1;
         left: $column-a;
         bottom: $first-rank;
         animation-name: rook-move;
@@ -246,7 +236,6 @@
     }
 
     &-bishop {
-        opacity: 1;
         left: $column-d;
         bottom: $second-rank;
         animation-name: bishop-move;
@@ -255,7 +244,6 @@
     }
 
     &-knight {
-        opacity: 1;
         left: $column-c;
         bottom: $fourth-rank;
         animation-name: knight-move;
@@ -264,7 +252,6 @@
     }
 
     &-pawn {
-        opacity: 1;
         animation-duration: 21s;
         animation-iteration-count: infinite;
 
@@ -295,7 +282,6 @@
 }
 
 .castling {
-    opacity: 1;
     animation-duration: 8s;
     animation-iteration-count: infinite;
 
@@ -333,7 +319,6 @@
     animation-iteration-count: infinite;
 
     &-pawn {
-        opacity: 1;
         left: $column-e;
         bottom: $seventh-rank;
         animation-name: promotion-pawn;
@@ -347,7 +332,6 @@
 }
 
 .en-passant {
-    opacity: 1;
     animation-duration: 8s;
     animation-iteration-count: infinite;
 
@@ -365,8 +349,6 @@
 }
 
 .mate {
-    opacity: 1;
-
     &-white-king {
         left: $column-g;
         bottom: $first-rank;
@@ -394,8 +376,6 @@
 }
 
 .stalemate {
-    opacity: 1;
-
     &-white-king {
         left: $column-e;
         bottom: $third-rank;

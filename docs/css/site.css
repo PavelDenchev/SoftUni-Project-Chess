@@ -981,17 +981,616 @@ html {
     left: 63.5%;
     bottom: 76%; } }
 
+@-webkit-keyframes three-move-first-puzzle-white-queen {
+  0% {
+    left: 76%;
+    bottom: 25.5%; }
+  20% {
+    left: 38.55%;
+    bottom: 25.5%; }
+  40% {
+    left: 38.55%;
+    bottom: 25.5%; }
+  60% {
+    left: 38.55%;
+    bottom: 38.5%; }
+  80% {
+    left: 38.55%;
+    bottom: 38.5%; }
+  100% {
+    left: 13.55%;
+    bottom: 38.5%; } }
+
+@keyframes three-move-first-puzzle-white-queen {
+  0% {
+    left: 76%;
+    bottom: 25.5%; }
+  20% {
+    left: 38.55%;
+    bottom: 25.5%; }
+  40% {
+    left: 38.55%;
+    bottom: 25.5%; }
+  60% {
+    left: 38.55%;
+    bottom: 38.5%; }
+  80% {
+    left: 38.55%;
+    bottom: 38.5%; }
+  100% {
+    left: 13.55%;
+    bottom: 38.5%; } }
+
+@-webkit-keyframes three-move-first-puzzle-black-king {
+  0% {
+    left: 38.55%;
+    bottom: 51%; }
+  20% {
+    left: 38.55%;
+    bottom: 51%; }
+  40% {
+    left: 26%;
+    bottom: 51%; }
+  60% {
+    left: 26%;
+    bottom: 51%; }
+  80% {
+    left: 13.55%;
+    bottom: 51%; }
+  100% {
+    left: 13.55%;
+    bottom: 51%; } }
+
+@keyframes three-move-first-puzzle-black-king {
+  0% {
+    left: 38.55%;
+    bottom: 51%; }
+  20% {
+    left: 38.55%;
+    bottom: 51%; }
+  40% {
+    left: 26%;
+    bottom: 51%; }
+  60% {
+    left: 26%;
+    bottom: 51%; }
+  80% {
+    left: 13.55%;
+    bottom: 51%; }
+  100% {
+    left: 13.55%;
+    bottom: 51%; } }
+
+@-webkit-keyframes three-move-second-puzzle-white-queen {
+  0% {
+    left: 1.1%;
+    bottom: 76%; }
+  20% {
+    left: 1.1%;
+    bottom: 76%; }
+  40% {
+    left: 1.1%;
+    bottom: 76%; }
+  60% {
+    left: 1.1%;
+    bottom: 76%; }
+  80% {
+    left: 1.1%;
+    bottom: 76%; }
+  100% {
+    left: 51%;
+    bottom: 76%; } }
+
+@keyframes three-move-second-puzzle-white-queen {
+  0% {
+    left: 1.1%;
+    bottom: 76%; }
+  20% {
+    left: 1.1%;
+    bottom: 76%; }
+  40% {
+    left: 1.1%;
+    bottom: 76%; }
+  60% {
+    left: 1.1%;
+    bottom: 76%; }
+  80% {
+    left: 1.1%;
+    bottom: 76%; }
+  100% {
+    left: 51%;
+    bottom: 76%; } }
+
+@-webkit-keyframes three-move-second-puzzle-white-rook {
+  0% {
+    left: 13.55%;
+    bottom: 76%; }
+  20% {
+    left: 51%;
+    bottom: 76%; }
+  40% {
+    left: 51%;
+    bottom: 76%; }
+  60% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 1; }
+  80% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 0; }
+  100% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 0; } }
+
+@keyframes three-move-second-puzzle-white-rook {
+  0% {
+    left: 13.55%;
+    bottom: 76%; }
+  20% {
+    left: 51%;
+    bottom: 76%; }
+  40% {
+    left: 51%;
+    bottom: 76%; }
+  60% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 1; }
+  80% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 0; }
+  100% {
+    left: 51%;
+    bottom: 88%;
+    opacity: 0; } }
+
+@-webkit-keyframes three-move-second-puzzle-black-king {
+  0% {
+    left: 51%;
+    bottom: 88%; }
+  20% {
+    left: 51%;
+    bottom: 88%; }
+  40% {
+    left: 63.5%;
+    bottom: 88%; }
+  60% {
+    left: 63.5%;
+    bottom: 88%; }
+  80% {
+    left: 51%;
+    bottom: 88%; }
+  100% {
+    left: 51%;
+    bottom: 88%; } }
+
+@keyframes three-move-second-puzzle-black-king {
+  0% {
+    left: 51%;
+    bottom: 88%; }
+  20% {
+    left: 51%;
+    bottom: 88%; }
+  40% {
+    left: 63.5%;
+    bottom: 88%; }
+  60% {
+    left: 63.5%;
+    bottom: 88%; }
+  80% {
+    left: 51%;
+    bottom: 88%; }
+  100% {
+    left: 51%;
+    bottom: 88%; } }
+
+@-webkit-keyframes four-move-first-puzzle-white-king {
+  0% {
+    left: 76%;
+    bottom: 13.5%; }
+  14% {
+    left: 76%;
+    bottom: 13.5%; }
+  28% {
+    left: 76%;
+    bottom: 13.5%; }
+  42% {
+    left: 63.5%;
+    bottom: 25.5%; }
+  56% {
+    left: 63.5%;
+    bottom: 25.5%; }
+  70% {
+    left: 63.5%;
+    bottom: 38.5%; }
+  100% {
+    left: 63.5%;
+    bottom: 38.5%; } }
+
+@keyframes four-move-first-puzzle-white-king {
+  0% {
+    left: 76%;
+    bottom: 13.5%; }
+  14% {
+    left: 76%;
+    bottom: 13.5%; }
+  28% {
+    left: 76%;
+    bottom: 13.5%; }
+  42% {
+    left: 63.5%;
+    bottom: 25.5%; }
+  56% {
+    left: 63.5%;
+    bottom: 25.5%; }
+  70% {
+    left: 63.5%;
+    bottom: 38.5%; }
+  100% {
+    left: 63.5%;
+    bottom: 38.5%; } }
+
+@-webkit-keyframes four-move-first-puzzle-white-rook {
+  0% {
+    left: 13.55%;
+    bottom: 25.5%; }
+  14% {
+    left: 88.5%;
+    bottom: 25.5%;
+    opacity: 1; }
+  28% {
+    left: 88.5%;
+    bottom: 25.5%;
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes four-move-first-puzzle-white-rook {
+  0% {
+    left: 13.55%;
+    bottom: 25.5%; }
+  14% {
+    left: 88.5%;
+    bottom: 25.5%;
+    opacity: 1; }
+  28% {
+    left: 88.5%;
+    bottom: 25.5%;
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes four-move-first-puzzle-white-pawn {
+  0% {
+    left: 88.5%;
+    bottom: 13.5%; }
+  84% {
+    left: 88.5%;
+    bottom: 13.5%; }
+  98% {
+    left: 76%;
+    bottom: 25.5%; }
+  100% {
+    left: 76%;
+    bottom: 25.5%; } }
+
+@keyframes four-move-first-puzzle-white-pawn {
+  0% {
+    left: 88.5%;
+    bottom: 13.5%; }
+  84% {
+    left: 88.5%;
+    bottom: 13.5%; }
+  98% {
+    left: 76%;
+    bottom: 25.5%; }
+  100% {
+    left: 76%;
+    bottom: 25.5%; } }
+
+@-webkit-keyframes four-move-first-puzzle-black-pawn-first {
+  0% {
+    left: 76%;
+    bottom: 38.5%; }
+  14% {
+    left: 76%;
+    bottom: 38.5%; }
+  28% {
+    left: 88.5%;
+    bottom: 25.5%; }
+  100% {
+    left: 88.5%;
+    bottom: 25.5%; } }
+
+@keyframes four-move-first-puzzle-black-pawn-first {
+  0% {
+    left: 76%;
+    bottom: 38.5%; }
+  14% {
+    left: 76%;
+    bottom: 38.5%; }
+  28% {
+    left: 88.5%;
+    bottom: 25.5%; }
+  100% {
+    left: 88.5%;
+    bottom: 25.5%; } }
+
+@-webkit-keyframes four-move-first-puzzle-black-pawn-second {
+  0% {
+    left: 76%;
+    bottom: 51%; }
+  14% {
+    left: 76%;
+    bottom: 51%; }
+  28% {
+    left: 76%;
+    bottom: 51%; }
+  42% {
+    left: 76%;
+    bottom: 51%; }
+  56% {
+    left: 76%;
+    bottom: 38.5%; }
+  70% {
+    left: 76%;
+    bottom: 38.5%; }
+  84% {
+    left: 76%;
+    bottom: 25.5%;
+    opacity: 1; }
+  98% {
+    left: 76%;
+    bottom: 25.5%;
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes four-move-first-puzzle-black-pawn-second {
+  0% {
+    left: 76%;
+    bottom: 51%; }
+  14% {
+    left: 76%;
+    bottom: 51%; }
+  28% {
+    left: 76%;
+    bottom: 51%; }
+  42% {
+    left: 76%;
+    bottom: 51%; }
+  56% {
+    left: 76%;
+    bottom: 38.5%; }
+  70% {
+    left: 76%;
+    bottom: 38.5%; }
+  84% {
+    left: 76%;
+    bottom: 25.5%;
+    opacity: 1; }
+  98% {
+    left: 76%;
+    bottom: 25.5%;
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes four-move-second-puzzle-white-bishop {
+  0% {
+    left: 63.5%;
+    bottom: 76%; }
+  14% {
+    left: 51%;
+    bottom: 63.5%; }
+  100% {
+    left: 51%;
+    bottom: 63.5%; } }
+
+@keyframes four-move-second-puzzle-white-bishop {
+  0% {
+    left: 63.5%;
+    bottom: 76%; }
+  14% {
+    left: 51%;
+    bottom: 63.5%; }
+  100% {
+    left: 51%;
+    bottom: 63.5%; } }
+
+@-webkit-keyframes four-move-second-puzzle-white-rook {
+  0% {
+    left: 38.55%;
+    bottom: 63.5%; }
+  28% {
+    left: 38.55%;
+    bottom: 63.5%; }
+  42% {
+    left: 13.55%;
+    bottom: 63.5%; }
+  100% {
+    left: 13.55%;
+    bottom: 63.5%; } }
+
+@keyframes four-move-second-puzzle-white-rook {
+  0% {
+    left: 38.55%;
+    bottom: 63.5%; }
+  28% {
+    left: 38.55%;
+    bottom: 63.5%; }
+  42% {
+    left: 13.55%;
+    bottom: 63.5%; }
+  100% {
+    left: 13.55%;
+    bottom: 63.5%; } }
+
+@-webkit-keyframes four-move-second-puzzle-white-queen {
+  0% {
+    left: 88.5%;
+    bottom: 76%; }
+  56% {
+    left: 88.5%;
+    bottom: 76%; }
+  70% {
+    left: 26%;
+    bottom: 76%; }
+  84% {
+    left: 26%;
+    bottom: 76%; }
+  98% {
+    left: 13.55%;
+    bottom: 76%; }
+  100% {
+    left: 13.55%;
+    bottom: 76%; } }
+
+@keyframes four-move-second-puzzle-white-queen {
+  0% {
+    left: 88.5%;
+    bottom: 76%; }
+  56% {
+    left: 88.5%;
+    bottom: 76%; }
+  70% {
+    left: 26%;
+    bottom: 76%; }
+  84% {
+    left: 26%;
+    bottom: 76%; }
+  98% {
+    left: 13.55%;
+    bottom: 76%; }
+  100% {
+    left: 13.55%;
+    bottom: 76%; } }
+
+@-webkit-keyframes four-move-second-puzzle-black-queen {
+  0% {
+    left: 26%;
+    bottom: 13.5%; }
+  42% {
+    left: 26%;
+    bottom: 13.5%; }
+  56% {
+    left: 26%;
+    bottom: 76%;
+    opacity: 1; }
+  70% {
+    left: 26%;
+    bottom: 76%;
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes four-move-second-puzzle-black-queen {
+  0% {
+    left: 26%;
+    bottom: 13.5%; }
+  42% {
+    left: 26%;
+    bottom: 13.5%; }
+  56% {
+    left: 26%;
+    bottom: 76%;
+    opacity: 1; }
+  70% {
+    left: 26%;
+    bottom: 76%;
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes four-move-second-puzzle-black-bishop {
+  0% {
+    left: 13.55%;
+    bottom: 76%; }
+  84% {
+    left: 13.55%;
+    bottom: 76%;
+    opacity: 1; }
+  98% {
+    left: 13.55%;
+    bottom: 76%;
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes four-move-second-puzzle-black-bishop {
+  0% {
+    left: 13.55%;
+    bottom: 76%; }
+  84% {
+    left: 13.55%;
+    bottom: 76%;
+    opacity: 1; }
+  98% {
+    left: 13.55%;
+    bottom: 76%;
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes four-move-second-puzzle-black-king {
+  0% {
+    left: 26%;
+    bottom: 88%; }
+  14% {
+    left: 26%;
+    bottom: 88%; }
+  28% {
+    left: 13.55%;
+    bottom: 88%; }
+  70% {
+    left: 13.55%;
+    bottom: 88%; }
+  84% {
+    left: 1.1%;
+    bottom: 76%; }
+  98% {
+    left: 1.1%;
+    bottom: 76%; }
+  100% {
+    left: 1.1%;
+    bottom: 76%; } }
+
+@keyframes four-move-second-puzzle-black-king {
+  0% {
+    left: 26%;
+    bottom: 88%; }
+  14% {
+    left: 26%;
+    bottom: 88%; }
+  28% {
+    left: 13.55%;
+    bottom: 88%; }
+  70% {
+    left: 13.55%;
+    bottom: 88%; }
+  84% {
+    left: 1.1%;
+    bottom: 76%; }
+  98% {
+    left: 1.1%;
+    bottom: 76%; }
+  100% {
+    left: 1.1%;
+    bottom: 76%; } }
+
 header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1; }
+  z-index: 100; }
 
 .title {
-  display: flex;
-  margin-top: 0.7rem; }
+  display: flex; }
   .title h1 {
-    margin-top: 0.2rem; }
+    margin: auto 0; }
     .title h1 a {
       text-decoration: none;
       font-family: "Cinzel";
@@ -1005,7 +1604,7 @@ header {
   border-bottom: 3px solid #7F5732; }
   .nav-bar-inner > ul {
     display: flex;
-    margin-top: 1.6rem;
+    margin-top: 1rem;
     margin-right: 2rem; }
 
 nav li {
@@ -1127,6 +1726,12 @@ nav li {
     padding: 1rem 0; }
   .news p {
     color: white; }
+  .news-title {
+    font-family: "Cinzel";
+    font-size: 25px;
+    text-align: center;
+    color: #7F5732;
+    margin-bottom: 1rem; }
   .news-events {
     display: flex;
     flex-wrap: nowrap;
@@ -1136,12 +1741,6 @@ nav li {
     padding-bottom: 15rem; }
   .news-wrapper {
     width: 60%; }
-    .news-wrapper > h1 {
-      font-family: "Cinzel";
-      text-align: center;
-      margin-bottom: 1rem;
-      color: #7F5732;
-      font-size: 25px; }
 
 .events {
   border: 3px solid #7F5732;
@@ -1160,12 +1759,12 @@ nav li {
   .events-wrapper {
     width: 30%;
     padding-right: 1rem; }
-    .events-wrapper > h1 {
-      font-family: "Cinzel";
-      font-size: 25px;
-      text-align: center;
-      color: #7F5732;
-      margin-bottom: 3rem; }
+  .events-title {
+    font-family: "Cinzel";
+    font-size: 25px;
+    text-align: center;
+    color: #7F5732;
+    margin-bottom: 3rem; }
 
 .worlds-best {
   background-color: #CEAA6A; }
@@ -1665,159 +2264,372 @@ nav li {
 
 .puzzles {
   background-color: #CEAA6A; }
+  .puzzles-pages-buttons {
+    display: flex;
+    justify-content: center; }
+    .puzzles-pages-buttons a {
+      background-color: #7F5732;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border: 3px solid #7F5732;
+      border-radius: 1rem;
+      padding: 1rem 2rem;
+      box-shadow: none;
+      margin: 1rem 2rem; }
+      .puzzles-pages-buttons a:hover {
+        background-color: #CEAA6A;
+        color: black; }
   .puzzles-title {
     font-size: 25px;
     color: #7F5732;
     text-align: center;
     padding: 2rem; }
-  .puzzles-two-moves {
+  .puzzles-wrapper {
     display: flex;
     justify-content: space-around;
     padding-bottom: 2rem; }
-    .puzzles-two-moves-first-puzzle {
-      -webkit-animation-duration: 9s;
-              animation-duration: 9s;
-      -webkit-animation-fill-mode: forwards;
-              animation-fill-mode: forwards; }
-      .puzzles-two-moves-first-puzzle-wrapper {
-        display: flex;
-        flex-direction: column; }
-      .puzzles-two-moves-first-puzzle-a2 {
-        left: 1.1%;
-        bottom: 13.5%; }
-      .puzzles-two-moves-first-puzzle-b2 {
-        left: 13.55%;
-        bottom: 13.5%; }
-      .puzzles-two-moves-first-puzzle-e5 {
-        left: 51%;
-        bottom: 51%; }
-      .puzzles-two-moves-first-puzzle-f4 {
-        left: 63.5%;
-        bottom: 38.5%; }
-      .puzzles-two-moves-first-puzzle-h2 {
-        left: 88.5%;
-        bottom: 13.5%; }
-      .puzzles-two-moves-first-puzzle-h1 {
-        left: 88.5%;
-        bottom: 0.5%; }
-      .puzzles-two-moves-first-puzzle-f5 {
-        left: 63.5%;
-        bottom: 51%; }
-      .puzzles-two-moves-first-puzzle-g1 {
-        left: 76%;
-        bottom: 0.5%; }
-      .puzzles-two-moves-first-puzzle-f6 {
-        left: 63.5%;
-        bottom: 63.5%; }
-      .puzzles-two-moves-first-puzzle-a6 {
-        left: 1.1%;
-        bottom: 63.5%; }
-      .puzzles-two-moves-first-puzzle-a7 {
-        left: 1.1%;
-        bottom: 76%; }
-      .puzzles-two-moves-first-puzzle-h8 {
-        left: 88.5%;
-        bottom: 88%; }
-      .puzzles-two-moves-first-puzzle-h7 {
-        left: 88.5%;
-        bottom: 76%; }
-      .puzzles-two-moves-first-puzzle-c7 {
-        left: 26%;
-        bottom: 76%; }
-      .puzzles-two-moves-first-puzzle-c4 {
-        left: 26%;
-        bottom: 38.5%; }
-      .puzzles-two-moves-first-puzzle-d4 {
-        left: 38.55%;
-        bottom: 38.5%; }
-    .puzzles-two-moves-second-puzzle {
-      -webkit-animation-duration: 9s;
-              animation-duration: 9s;
-      -webkit-animation-fill-mode: forwards;
-              animation-fill-mode: forwards; }
-      .puzzles-two-moves-second-puzzle-wrapper {
-        display: flex;
-        flex-direction: column; }
-      .puzzles-two-moves-second-puzzle-a2 {
-        left: 1.1%;
-        bottom: 13.5%; }
-      .puzzles-two-moves-second-puzzle-f2 {
-        left: 63.5%;
-        bottom: 13.5%; }
-      .puzzles-two-moves-second-puzzle-g2 {
-        left: 76%;
-        bottom: 13.5%; }
-      .puzzles-two-moves-second-puzzle-h2 {
-        left: 88.5%;
-        bottom: 13.5%; }
-      .puzzles-two-moves-second-puzzle-g1 {
-        left: 76%;
-        bottom: 0.5%; }
-      .puzzles-two-moves-second-puzzle-a1 {
-        left: 1.1%;
-        bottom: 0.5%; }
-      .puzzles-two-moves-second-puzzle-d1 {
-        left: 38.55%;
-        bottom: 0.5%; }
-      .puzzles-two-moves-second-puzzle-f6 {
-        left: 63.5%;
-        bottom: 63.5%; }
-      .puzzles-two-moves-second-puzzle-g5 {
-        left: 76%;
-        bottom: 51%; }
-      .puzzles-two-moves-second-puzzle-a7 {
-        left: 1.1%;
-        bottom: 76%; }
-      .puzzles-two-moves-second-puzzle-b7 {
-        left: 13.55%;
-        bottom: 76%; }
-      .puzzles-two-moves-second-puzzle-c7 {
-        left: 26%;
-        bottom: 76%; }
-      .puzzles-two-moves-second-puzzle-e5 {
-        left: 51%;
-        bottom: 51%; }
-      .puzzles-two-moves-second-puzzle-h7 {
-        left: 88.5%;
-        bottom: 76%; }
-      .puzzles-two-moves-second-puzzle-f8 {
-        left: 63.5%;
-        bottom: 88%; }
-      .puzzles-two-moves-second-puzzle-a3 {
-        left: 1.1%;
-        bottom: 25.5%; }
-      .puzzles-two-moves-second-puzzle-a8 {
-        left: 1.1%;
-        bottom: 88%; }
-      .puzzles-two-moves-second-puzzle-h8 {
-        left: 88.5%;
-        bottom: 88%; }
-      .puzzles-two-moves-second-puzzle-e7 {
-        left: 51%;
-        bottom: 76%; }
-      .puzzles-two-moves-second-puzzle-e6 {
-        left: 51%;
-        bottom: 63.5%; }
-      .puzzles-two-moves-second-puzzle-d4 {
-        left: 38.55%;
-        bottom: 38.5%; }
-      .puzzles-two-moves-second-puzzle-d8 {
-        left: 38.55%;
-        bottom: 88%; }
-    .puzzles-two-moves-button {
-      border: 3px solid #7F5732;
-      background-color: #CEAA6A;
-      border-radius: 1rem;
-      padding: 1rem 2rem;
-      margin: 0 auto;
-      width: 25%;
-      font-size: 18px; }
-      .puzzles-two-moves-button:hover {
-        background-color: #7F5732;
-        color: white;
-        border-color: white; }
-      .puzzles-two-moves-button:focus {
-        outline: none; }
+  .puzzles-two-moves-first-puzzle {
+    -webkit-animation-duration: 9s;
+            animation-duration: 9s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
+    .puzzles-two-moves-first-puzzle-wrapper {
+      display: flex;
+      flex-direction: column; }
+    .puzzles-two-moves-first-puzzle-a2 {
+      left: 1.1%;
+      bottom: 13.5%; }
+    .puzzles-two-moves-first-puzzle-b2 {
+      left: 13.55%;
+      bottom: 13.5%; }
+    .puzzles-two-moves-first-puzzle-e5 {
+      left: 51%;
+      bottom: 51%; }
+    .puzzles-two-moves-first-puzzle-f4 {
+      left: 63.5%;
+      bottom: 38.5%; }
+    .puzzles-two-moves-first-puzzle-h2 {
+      left: 88.5%;
+      bottom: 13.5%; }
+    .puzzles-two-moves-first-puzzle-h1 {
+      left: 88.5%;
+      bottom: 0.5%; }
+    .puzzles-two-moves-first-puzzle-f5 {
+      left: 63.5%;
+      bottom: 51%; }
+    .puzzles-two-moves-first-puzzle-g1 {
+      left: 76%;
+      bottom: 0.5%; }
+    .puzzles-two-moves-first-puzzle-f6 {
+      left: 63.5%;
+      bottom: 63.5%; }
+    .puzzles-two-moves-first-puzzle-a6 {
+      left: 1.1%;
+      bottom: 63.5%; }
+    .puzzles-two-moves-first-puzzle-a7 {
+      left: 1.1%;
+      bottom: 76%; }
+    .puzzles-two-moves-first-puzzle-h8 {
+      left: 88.5%;
+      bottom: 88%; }
+    .puzzles-two-moves-first-puzzle-h7 {
+      left: 88.5%;
+      bottom: 76%; }
+    .puzzles-two-moves-first-puzzle-c7 {
+      left: 26%;
+      bottom: 76%; }
+    .puzzles-two-moves-first-puzzle-c4 {
+      left: 26%;
+      bottom: 38.5%; }
+    .puzzles-two-moves-first-puzzle-d4 {
+      left: 38.55%;
+      bottom: 38.5%; }
+  .puzzles-two-moves-second-puzzle {
+    -webkit-animation-duration: 9s;
+            animation-duration: 9s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
+    .puzzles-two-moves-second-puzzle-wrapper {
+      display: flex;
+      flex-direction: column; }
+    .puzzles-two-moves-second-puzzle-a2 {
+      left: 1.1%;
+      bottom: 13.5%; }
+    .puzzles-two-moves-second-puzzle-f2 {
+      left: 63.5%;
+      bottom: 13.5%; }
+    .puzzles-two-moves-second-puzzle-g2 {
+      left: 76%;
+      bottom: 13.5%; }
+    .puzzles-two-moves-second-puzzle-h2 {
+      left: 88.5%;
+      bottom: 13.5%; }
+    .puzzles-two-moves-second-puzzle-g1 {
+      left: 76%;
+      bottom: 0.5%; }
+    .puzzles-two-moves-second-puzzle-a1 {
+      left: 1.1%;
+      bottom: 0.5%; }
+    .puzzles-two-moves-second-puzzle-d1 {
+      left: 38.55%;
+      bottom: 0.5%; }
+    .puzzles-two-moves-second-puzzle-f6 {
+      left: 63.5%;
+      bottom: 63.5%; }
+    .puzzles-two-moves-second-puzzle-g5 {
+      left: 76%;
+      bottom: 51%; }
+    .puzzles-two-moves-second-puzzle-a7 {
+      left: 1.1%;
+      bottom: 76%; }
+    .puzzles-two-moves-second-puzzle-b7 {
+      left: 13.55%;
+      bottom: 76%; }
+    .puzzles-two-moves-second-puzzle-c7 {
+      left: 26%;
+      bottom: 76%; }
+    .puzzles-two-moves-second-puzzle-e5 {
+      left: 51%;
+      bottom: 51%; }
+    .puzzles-two-moves-second-puzzle-h7 {
+      left: 88.5%;
+      bottom: 76%; }
+    .puzzles-two-moves-second-puzzle-f8 {
+      left: 63.5%;
+      bottom: 88%; }
+    .puzzles-two-moves-second-puzzle-a3 {
+      left: 1.1%;
+      bottom: 25.5%; }
+    .puzzles-two-moves-second-puzzle-a8 {
+      left: 1.1%;
+      bottom: 88%; }
+    .puzzles-two-moves-second-puzzle-h8 {
+      left: 88.5%;
+      bottom: 88%; }
+    .puzzles-two-moves-second-puzzle-e7 {
+      left: 51%;
+      bottom: 76%; }
+    .puzzles-two-moves-second-puzzle-e6 {
+      left: 51%;
+      bottom: 63.5%; }
+    .puzzles-two-moves-second-puzzle-d4 {
+      left: 38.55%;
+      bottom: 38.5%; }
+    .puzzles-two-moves-second-puzzle-d8 {
+      left: 38.55%;
+      bottom: 88%; }
+  .puzzles-three-moves-first-puzzle {
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
+    .puzzles-three-moves-first-puzzle-wrapper {
+      display: flex;
+      flex-direction: column; }
+    .puzzles-three-moves-first-puzzle-a2 {
+      left: 1.1%;
+      bottom: 13.5%; }
+    .puzzles-three-moves-first-puzzle-b2 {
+      left: 13.55%;
+      bottom: 13.5%; }
+    .puzzles-three-moves-first-puzzle-c3 {
+      left: 26%;
+      bottom: 25.5%; }
+    .puzzles-three-moves-first-puzzle-g2 {
+      left: 76%;
+      bottom: 13.5%; }
+    .puzzles-three-moves-first-puzzle-h2 {
+      left: 88.5%;
+      bottom: 13.5%; }
+    .puzzles-three-moves-first-puzzle-h1 {
+      left: 88.5%;
+      bottom: 0.5%; }
+    .puzzles-three-moves-first-puzzle-g3 {
+      left: 76%;
+      bottom: 25.5%; }
+    .puzzles-three-moves-first-puzzle-e1 {
+      left: 51%;
+      bottom: 0.5%; }
+    .puzzles-three-moves-first-puzzle-a6 {
+      left: 1.1%;
+      bottom: 63.5%; }
+    .puzzles-three-moves-first-puzzle-b7 {
+      left: 13.55%;
+      bottom: 76%; }
+    .puzzles-three-moves-first-puzzle-g7 {
+      left: 76%;
+      bottom: 76%; }
+    .puzzles-three-moves-first-puzzle-h7 {
+      left: 88.5%;
+      bottom: 76%; }
+    .puzzles-three-moves-first-puzzle-d5 {
+      left: 38.55%;
+      bottom: 51%; }
+    .puzzles-three-moves-first-puzzle-e6 {
+      left: 51%;
+      bottom: 63.5%; }
+    .puzzles-three-moves-first-puzzle-f6 {
+      left: 63.5%;
+      bottom: 63.5%; }
+    .puzzles-three-moves-first-puzzle-c6 {
+      left: 26%;
+      bottom: 63.5%; }
+  .puzzles-three-moves-second-puzzle {
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
+    .puzzles-three-moves-second-puzzle-wrapper {
+      display: flex;
+      flex-direction: column; }
+    .puzzles-three-moves-second-puzzle-a2 {
+      left: 1.1%;
+      bottom: 13.5%; }
+    .puzzles-three-moves-second-puzzle-d4 {
+      left: 38.55%;
+      bottom: 38.5%; }
+    .puzzles-three-moves-second-puzzle-f2 {
+      left: 63.5%;
+      bottom: 13.5%; }
+    .puzzles-three-moves-second-puzzle-g2 {
+      left: 76%;
+      bottom: 13.5%; }
+    .puzzles-three-moves-second-puzzle-h2 {
+      left: 88.5%;
+      bottom: 13.5%; }
+    .puzzles-three-moves-second-puzzle-g1 {
+      left: 76%;
+      bottom: 0.5%; }
+    .puzzles-three-moves-second-puzzle-a7 {
+      left: 1.1%;
+      bottom: 76%; }
+    .puzzles-three-moves-second-puzzle-b7 {
+      left: 13.55%;
+      bottom: 76%; }
+    .puzzles-three-moves-second-puzzle-b5 {
+      left: 13.55%;
+      bottom: 51%; }
+    .puzzles-three-moves-second-puzzle-c5 {
+      left: 26%;
+      bottom: 51%; }
+    .puzzles-three-moves-second-puzzle-f7 {
+      left: 63.5%;
+      bottom: 76%; }
+    .puzzles-three-moves-second-puzzle-g7 {
+      left: 76%;
+      bottom: 76%; }
+    .puzzles-three-moves-second-puzzle-h6 {
+      left: 88.5%;
+      bottom: 63.5%; }
+    .puzzles-three-moves-second-puzzle-e8 {
+      left: 51%;
+      bottom: 88%; }
+    .puzzles-three-moves-second-puzzle-e5 {
+      left: 51%;
+      bottom: 51%; }
+    .puzzles-three-moves-second-puzzle-d8 {
+      left: 38.55%;
+      bottom: 88%; }
+    .puzzles-three-moves-second-puzzle-c8 {
+      left: 26%;
+      bottom: 88%; }
+    .puzzles-three-moves-second-puzzle-c6 {
+      left: 26%;
+      bottom: 63.5%; }
+    .puzzles-three-moves-second-puzzle-e6 {
+      left: 51%;
+      bottom: 63.5%; }
+  .puzzles-four-moves-first-puzzle {
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
+    .puzzles-four-moves-first-puzzle-wrapper {
+      display: flex;
+      flex-direction: column; }
+    .puzzles-four-moves-first-puzzle-h2 {
+      left: 88.5%;
+      bottom: 13.5%; }
+    .puzzles-four-moves-first-puzzle-g2 {
+      left: 76%;
+      bottom: 13.5%; }
+    .puzzles-four-moves-first-puzzle-b3 {
+      left: 13.55%;
+      bottom: 25.5%; }
+    .puzzles-four-moves-first-puzzle-g5 {
+      left: 76%;
+      bottom: 51%; }
+    .puzzles-four-moves-first-puzzle-h5 {
+      left: 88.5%;
+      bottom: 51%; }
+    .puzzles-four-moves-first-puzzle-g4 {
+      left: 76%;
+      bottom: 38.5%; }
+    .puzzles-four-moves-first-puzzle-h4 {
+      left: 88.5%;
+      bottom: 38.5%; }
+  .puzzles-four-moves-second-puzzle {
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
+    .puzzles-four-moves-second-puzzle-wrapper {
+      display: flex;
+      flex-direction: column; }
+    .puzzles-four-moves-second-puzzle-g5 {
+      left: 76%;
+      bottom: 51%; }
+    .puzzles-four-moves-second-puzzle-h4 {
+      left: 88.5%;
+      bottom: 38.5%; }
+    .puzzles-four-moves-second-puzzle-g3 {
+      left: 76%;
+      bottom: 25.5%; }
+    .puzzles-four-moves-second-puzzle-h7 {
+      left: 88.5%;
+      bottom: 76%; }
+    .puzzles-four-moves-second-puzzle-d6 {
+      left: 38.55%;
+      bottom: 63.5%; }
+    .puzzles-four-moves-second-puzzle-f7 {
+      left: 63.5%;
+      bottom: 76%; }
+    .puzzles-four-moves-second-puzzle-f4 {
+      left: 63.5%;
+      bottom: 38.5%; }
+    .puzzles-four-moves-second-puzzle-a6 {
+      left: 1.1%;
+      bottom: 63.5%; }
+    .puzzles-four-moves-second-puzzle-c8 {
+      left: 26%;
+      bottom: 88%; }
+    .puzzles-four-moves-second-puzzle-c2 {
+      left: 26%;
+      bottom: 13.5%; }
+    .puzzles-four-moves-second-puzzle-b2 {
+      left: 13.55%;
+      bottom: 13.5%; }
+    .puzzles-four-moves-second-puzzle-f8 {
+      left: 63.5%;
+      bottom: 88%; }
+    .puzzles-four-moves-second-puzzle-b7 {
+      left: 13.55%;
+      bottom: 76%; }
+  .puzzles-solution-button {
+    border: 3px solid #7F5732;
+    background-color: #CEAA6A;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    width: 25%;
+    font-size: 18px; }
+    .puzzles-solution-button:hover {
+      background-color: #7F5732;
+      color: white;
+      border-color: white; }
+    .puzzles-solution-button:focus {
+      outline: none; }
 
 .two-move-first-puzzle-white-queen {
   -webkit-animation-name: two-move-first-puzzle-white-queen;
@@ -1846,6 +2658,70 @@ nav li {
 .two-move-second-puzzle-black-knight {
   -webkit-animation-name: two-move-second-puzzle-black-knight;
           animation-name: two-move-second-puzzle-black-knight; }
+
+.three-move-first-puzzle-white-queen {
+  -webkit-animation-name: three-move-first-puzzle-white-queen;
+          animation-name: three-move-first-puzzle-white-queen; }
+
+.three-move-first-puzzle-black-king {
+  -webkit-animation-name: three-move-first-puzzle-black-king;
+          animation-name: three-move-first-puzzle-black-king; }
+
+.three-move-second-puzzle-white-queen {
+  -webkit-animation-name: three-move-second-puzzle-white-queen;
+          animation-name: three-move-second-puzzle-white-queen; }
+
+.three-move-second-puzzle-white-rook {
+  -webkit-animation-name: three-move-second-puzzle-white-rook;
+          animation-name: three-move-second-puzzle-white-rook; }
+
+.three-move-second-puzzle-black-king {
+  -webkit-animation-name: three-move-second-puzzle-black-king;
+          animation-name: three-move-second-puzzle-black-king; }
+
+.four-move-first-puzzle-white-king {
+  -webkit-animation-name: four-move-first-puzzle-white-king;
+          animation-name: four-move-first-puzzle-white-king; }
+
+.four-move-first-puzzle-white-rook {
+  -webkit-animation-name: four-move-first-puzzle-white-rook;
+          animation-name: four-move-first-puzzle-white-rook; }
+
+.four-move-first-puzzle-white-pawn {
+  -webkit-animation-name: four-move-first-puzzle-white-pawn;
+          animation-name: four-move-first-puzzle-white-pawn; }
+
+.four-move-first-puzzle-black-pawn-first {
+  -webkit-animation-name: four-move-first-puzzle-black-pawn-first;
+          animation-name: four-move-first-puzzle-black-pawn-first; }
+
+.four-move-first-puzzle-black-pawn-second {
+  -webkit-animation-name: four-move-first-puzzle-black-pawn-second;
+          animation-name: four-move-first-puzzle-black-pawn-second; }
+
+.four-move-second-puzzle-white-bishop {
+  -webkit-animation-name: four-move-second-puzzle-white-bishop;
+          animation-name: four-move-second-puzzle-white-bishop; }
+
+.four-move-second-puzzle-white-rook {
+  -webkit-animation-name: four-move-second-puzzle-white-rook;
+          animation-name: four-move-second-puzzle-white-rook; }
+
+.four-move-second-puzzle-white-queen {
+  -webkit-animation-name: four-move-second-puzzle-white-queen;
+          animation-name: four-move-second-puzzle-white-queen; }
+
+.four-move-second-puzzle-black-bishop {
+  -webkit-animation-name: four-move-second-puzzle-black-bishop;
+          animation-name: four-move-second-puzzle-black-bishop; }
+
+.four-move-second-puzzle-black-king {
+  -webkit-animation-name: four-move-second-puzzle-black-king;
+          animation-name: four-move-second-puzzle-black-king; }
+
+.four-move-second-puzzle-black-queen {
+  -webkit-animation-name: four-move-second-puzzle-black-queen;
+          animation-name: four-move-second-puzzle-black-queen; }
 
 .chessboard {
   position: relative;
@@ -1915,3 +2791,46 @@ nav li {
 #h7,
 #h8 {
   border-right: 3px solid #7F5732; }
+
+.notation {
+  position: absolute;
+  color: #534F4F;
+  z-index: 1; }
+
+.file {
+  bottom: 0; }
+  .file-a {
+    left: 10%; }
+  .file-b {
+    left: 22.5%; }
+  .file-c {
+    left: 35%; }
+  .file-d {
+    left: 47.5%; }
+  .file-e {
+    left: 60%; }
+  .file-f {
+    left: 72.5%; }
+  .file-g {
+    left: 85%; }
+  .file-h {
+    left: 97.5%; }
+
+.rank {
+  left: 1%; }
+  .rank-1 {
+    bottom: 8%; }
+  .rank-2 {
+    bottom: 20.5%; }
+  .rank-3 {
+    bottom: 33%; }
+  .rank-4 {
+    bottom: 45.5%; }
+  .rank-5 {
+    bottom: 58%; }
+  .rank-6 {
+    bottom: 70.5%; }
+  .rank-7 {
+    bottom: 83%; }
+  .rank-8 {
+    bottom: 95.5%; }

@@ -1,0 +1,100 @@
+---
+layout: page
+title: Four Move Puzzles
+---
+
+<div class="puzzles">
+    <div class="puzzles-title">
+        <h1>Four Move Puzzles</h1>
+    </div>
+
+    <div class="puzzles-pages-buttons">
+        <a href="./two-move-puzzles.html">Two move puzzles</a>
+        <a href="./three-move-puzzles.html">Three move puzzles</a>
+    </div>
+
+    <div class="puzzles-wrapper">
+        <div class="puzzles-four-moves-first-puzzle-wrapper">
+            <div class="chessboard">
+                {% include chessboard.html %}
+                <img src="./images/white-pawn.png" id="four-move-first-puzzle-white-pawn"
+                class="piece puzzles-four-moves-first-puzzle puzzles-four-moves-first-puzzle-h2" alt="pic">
+                <img src="./images/white-king.png" id="four-move-first-puzzle-white-king"
+                class="piece puzzles-four-moves-first-puzzle puzzles-four-moves-first-puzzle-g2" alt="pic">
+                <img src="./images/white-rook.png" id="four-move-first-puzzle-white-rook"
+                class="piece puzzles-four-moves-first-puzzle puzzles-four-moves-first-puzzle-b3" alt="pic">
+                <img src="./images/black-pawn.png" id="four-move-first-puzzle-black-pawn-second"
+                class="piece puzzles-four-moves-first-puzzle puzzles-four-moves-first-puzzle-g5" alt="pic">
+                <img src="./images/black-pawn.png"
+                class="piece puzzles-four-moves-first-puzzle puzzles-four-moves-first-puzzle-h5" alt="pic">
+                <img src="./images/black-pawn.png" id="four-move-first-puzzle-black-pawn-first"
+                class="piece puzzles-four-moves-first-puzzle puzzles-four-moves-first-puzzle-g4" alt="pic">
+                <img src="./images/black-king.png"
+                class="piece puzzles-four-moves-first-puzzle puzzles-four-moves-first-puzzle-h4" alt="pic">
+            </div>
+            <button class="puzzles-solution-button" onclick="fourMoveFirstPuzzle()">Solution</button>
+        </div>
+        <div class="puzzles-four-moves-second-puzzle-wrapper">
+            <div class="chessboard">
+                {% include chessboard.html %}
+                <img src="./images/white-pawn.png"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-g5" alt="pic">
+                <img src="./images/white-pawn.png"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-h4" alt="pic">
+                <img src="./images/white-king.png" id="four-move-second-puzzle-white-king"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-g3" alt="pic">
+                <img src="./images/white-queen.png" id="four-move-second-puzzle-white-queen"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-h7" alt="pic">
+                <img src="./images/white-rook.png" id="four-move-second-puzzle-white-rook"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-d6" alt="pic">
+                <img src="./images/white-bishop.png" id="four-move-second-puzzle-white-bishop"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-f7" alt="pic">
+                <img src="./images/white-bishop.png"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-f4" alt="pic">
+                <img src="./images/black-pawn.png"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-a6" alt="pic">
+                <img src="./images/black-king.png" id="four-move-second-puzzle-black-king"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-c8" alt="pic">
+                <img src="./images/black-queen.png" id="four-move-second-puzzle-black-queen"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-c2" alt="pic">
+                <img src="./images/black-rook.png"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-b2" alt="pic">
+                <img src="./images/black-rook.png"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-f8" alt="pic">
+                <img src="./images/black-bishop.png" id="four-move-second-puzzle-black-bishop"
+                class="piece puzzles-four-moves-second-puzzle puzzles-four-moves-second-puzzle-b7" alt="pic">
+            </div>
+            <button class="puzzles-solution-button" onclick="fourMoveSecondPuzzle()">Solution</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function fourMoveFirstPuzzle() {
+        var whiteKing = document.getElementById("four-move-first-puzzle-white-king");
+        whiteKing.classList.add("four-move-first-puzzle-white-king");
+        var whiteRook = document.getElementById("four-move-first-puzzle-white-rook");
+        whiteRook.classList.add("four-move-first-puzzle-white-rook");
+        var whitePawn = document.getElementById("four-move-first-puzzle-white-pawn");
+        whitePawn.classList.add("four-move-first-puzzle-white-pawn");
+        var blackPawnFirst = document.getElementById("four-move-first-puzzle-black-pawn-first");
+        blackPawnFirst.classList.add("four-move-first-puzzle-black-pawn-first");
+        var blackPawnSecond = document.getElementById("four-move-first-puzzle-black-pawn-second");
+        blackPawnSecond.classList.add("four-move-first-puzzle-black-pawn-second");
+    }
+
+    function fourMoveSecondPuzzle() {
+        var whiteBishop = document.getElementById("four-move-second-puzzle-white-bishop");
+        whiteBishop.classList.add("four-move-second-puzzle-white-bishop");
+        var whiteRook = document.getElementById("four-move-second-puzzle-white-rook");
+        whiteRook.classList.add("four-move-second-puzzle-white-rook");
+        var whiteQueen = document.getElementById("four-move-second-puzzle-white-queen");
+        whiteQueen.classList.add("four-move-second-puzzle-white-queen");
+        var blackBishop = document.getElementById("four-move-second-puzzle-black-bishop");
+        blackBishop.classList.add("four-move-second-puzzle-black-bishop");
+        var blackKing = document.getElementById("four-move-second-puzzle-black-king");
+        blackKing.classList.add("four-move-second-puzzle-black-king");
+        var blackQueen = document.getElementById("four-move-second-puzzle-black-queen");
+        blackQueen.classList.add("four-move-second-puzzle-black-queen");
+    }
+</script>

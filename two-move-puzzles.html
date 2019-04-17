@@ -8,7 +8,12 @@ title: Two Move Puzzles
         <h1>Two Move Puzzles</h1>
     </div>
 
-    <div class="puzzles-two-moves">
+    <div class="puzzles-pages-buttons">
+        <a href="./three-move-puzzles.html">Three move puzzles</a>
+        <a href="./four-move-puzzles.html">Four move puzzles</a>
+    </div>
+
+    <div class="puzzles-wrapper">
         <div class="puzzles-two-moves-first-puzzle-wrapper">
             <div class="chessboard">
                 {% include chessboard.html %}
@@ -45,7 +50,7 @@ title: Two Move Puzzles
                 <img src="./images/black-knight.png"
                     class="piece puzzles-two-moves-first-puzzle puzzles-two-moves-first-puzzle-d4" alt="pic">
             </div>
-            <button class="puzzles-two-moves-button" onclick="twoMoveFirstPuzzle()">Solution</button>
+            <button class="puzzles-solution-button" onclick="twoMoveFirstPuzzle()">Solution</button>
         </div>
         <div class="puzzles-two-moves-second-puzzle-wrapper">
             <div class="chessboard">
@@ -95,31 +100,29 @@ title: Two Move Puzzles
                 <img src="./images/black-bishop.png"
                     class="piece puzzles-two-moves-second-puzzle puzzles-two-moves-second-puzzle-d4" alt="pic">
             </div>
-            <button onclick="twoMoveSecondPuzzle()" class="puzzles-two-moves-button">Solution</button>
+            <button class="puzzles-solution-button" onclick="twoMoveSecondPuzzle()">Solution</button>
         </div>
     </div>
 </div>
 
 <script>
     function twoMoveFirstPuzzle() {
-        let whiteQueen = document.getElementById("two-move-first-puzzle-white-queen");
+        var whiteQueen = document.getElementById("two-move-first-puzzle-white-queen");
         whiteQueen.classList.add("two-move-first-puzzle-white-queen");
-        let whiteRook = document.getElementById("two-move-first-puzzle-white-rook");
+        var whiteRook = document.getElementById("two-move-first-puzzle-white-rook");
         whiteRook.classList.add("two-move-first-puzzle-white-rook");
-        let blackQueen = document.getElementById("two-move-first-puzzle-black-queen");
+        var blackQueen = document.getElementById("two-move-first-puzzle-black-queen");
         blackQueen.classList.add("two-move-first-puzzle-black-queen");
-        let blackRook = document.getElementById("two-move-first-puzzle-black-rook");
+        var blackRook = document.getElementById("two-move-first-puzzle-black-rook");
         blackRook.classList.add("two-move-first-puzzle-black-rook");
     }
-</script>
 
-<script>
     function twoMoveSecondPuzzle() {
-        let whiteQueenSecondPuzzle = document.getElementById("two-move-second-puzzle-white-queen");
-        whiteQueenSecondPuzzle.classList.add("two-move-second-puzzle-white-queen");
-        let whiteKnightSecondPuzzle = document.getElementById("two-move-second-puzzle-white-knight");
-        whiteKnightSecondPuzzle.classList.add("two-move-second-puzzle-white-knight");
-        let blackKnightSecondPuzzle = document.getElementById("two-move-second-puzzle-black-knight");
-        blackKnightSecondPuzzle.classList.add("two-move-second-puzzle-black-knight");
+        var whiteQueen = document.getElementById("two-move-second-puzzle-white-queen");
+        whiteQueen.classList.add("two-move-second-puzzle-white-queen");
+        var whiteKnight = document.getElementById("two-move-second-puzzle-white-knight");
+        whiteKnight.classList.add("two-move-second-puzzle-white-knight");
+        var blackKnight = document.getElementById("two-move-second-puzzle-black-knight");
+        blackKnight.classList.add("two-move-second-puzzle-black-knight");
     }
 </script>

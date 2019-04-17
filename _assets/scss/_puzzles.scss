@@ -1,6 +1,28 @@
 .puzzles {
     background-color: $primary-light;
 
+    &-pages-buttons {
+        display: flex;
+        justify-content: center;
+
+        & a {
+            background-color: $primary-dark;
+            color: $white;
+            text-decoration: none;
+            font-size: 18px;
+            border: $primary-dark-border;
+            border-radius: 1rem;
+            padding: 1rem 2rem;
+            box-shadow: none;
+            margin: 1rem 2rem;
+
+            &:hover {
+                background-color: $primary-light;
+                color: $black;
+            }
+        }
+    }
+
     &-title {
         font-size: $text-large;
         color: $primary-dark;
@@ -8,11 +30,13 @@
         padding: 2rem;
     }
 
-    &-two-moves {
+    &-wrapper {
         display: flex;
         justify-content: space-around;
         padding-bottom: 2rem;
+    }
 
+    &-two-moves {
         &-first-puzzle {
             animation-duration: 9s;
             animation-fill-mode: forwards;
@@ -222,25 +246,344 @@
                 bottom: $eight-rank;
             }
         }
+    }
 
-        &-button {
-            border: $primary-dark-border;
-            background-color: $primary-light;
-            border-radius: 1rem;
-            padding: 1rem 2rem;
-            margin: 0 auto;
-            width: 25%;
-            font-size: 18px;
+    &-three-moves {
+        &-first-puzzle {
+            animation-duration: 15s;
+            animation-fill-mode: forwards;
 
-            &:hover {
-                background-color: $primary-dark;
-                color: $white;
-                border-color: $white;
+            &-wrapper {
+                display: flex;
+                flex-direction: column;
             }
 
-            &:focus {
-                outline: none;
+            &-a2 {
+                left: $column-a;
+                bottom: $second-rank;
             }
+
+            &-b2 {
+                left: $column-b;
+                bottom: $second-rank;
+            }
+
+            &-c3 {
+                left: $column-c;
+                bottom: $third-rank;
+            }
+
+            &-g2 {
+                left: $column-g;
+                bottom: $second-rank;
+            }
+
+            &-h2 {
+                left: $column-h;
+                bottom: $second-rank;
+            }
+
+            &-h1 {
+                left: $column-h;
+                bottom: $first-rank;
+            }
+
+            &-g3 {
+                left: $column-g;
+                bottom: $third-rank;
+            }
+
+            &-e1 {
+                left: $column-e;
+                bottom: $first-rank;
+            }
+
+            &-a6 {
+                left: $column-a;
+                bottom: $sixth-rank;
+            }
+
+            &-b7 {
+                left: $column-b;
+                bottom: $seventh-rank;
+            }
+
+            &-g7 {
+                left: $column-g;
+                bottom: $seventh-rank;
+            }
+
+            &-h7 {
+                left: $column-h;
+                bottom: $seventh-rank;
+            }
+
+            &-d5 {
+                left: $column-d;
+                bottom: $fifth-rank;
+            }
+
+            &-e6 {
+                left: $column-e;
+                bottom: $sixth-rank;
+            }
+
+            &-f6 {
+                left: $column-f;
+                bottom: $sixth-rank;
+            }
+
+            &-c6 {
+                left: $column-c;
+                bottom: $sixth-rank;
+            }
+        }
+
+        &-second-puzzle {
+            animation-duration: 15s;
+            animation-fill-mode: forwards;
+
+            &-wrapper {
+                display: flex;
+                flex-direction: column;
+            }
+
+            &-a2 {
+                left: $column-a;
+                bottom: $second-rank;
+            }
+
+            &-d4 {
+                left: $column-d;
+                bottom: $fourth-rank;
+            }
+
+            &-f2 {
+                left: $column-f;
+                bottom: $second-rank;
+            }
+
+            &-g2 {
+                left: $column-g;
+                bottom: $second-rank;
+            }
+
+            &-h2 {
+                left: $column-h;
+                bottom: $second-rank;
+            }
+
+            &-g1 {
+                left: $column-g;
+                bottom: $first-rank;
+            }
+
+            &-a7 {
+                left: $column-a;
+                bottom: $seventh-rank;
+            }
+
+            &-b7 {
+                left: $column-b;
+                bottom: $seventh-rank;
+            }
+
+            &-b5 {
+                left: $column-b;
+                bottom: $fifth-rank;
+            }
+
+            &-c5 {
+                left: $column-c;
+                bottom: $fifth-rank;
+            }
+
+            &-f7 {
+                left: $column-f;
+                bottom: $seventh-rank;
+            }
+
+            &-g7 {
+                left: $column-g;
+                bottom: $seventh-rank;
+            }
+
+            &-h6 {
+                left: $column-h;
+                bottom: $sixth-rank;
+            }
+
+            &-e8 {
+                left: $column-e;
+                bottom: $eight-rank;
+            }
+
+            &-e5 {
+                left: $column-e;
+                bottom: $fifth-rank;
+            }
+
+            &-d8 {
+                left: $column-d;
+                bottom: $eight-rank;
+            }
+
+            &-c8 {
+                left: $column-c;
+                bottom: $eight-rank;
+            }
+
+            &-c6 {
+                left: $column-c;
+                bottom: $sixth-rank;
+            }
+
+            &-e6 {
+                left: $column-e;
+                bottom: $sixth-rank;
+            }
+        }
+    }
+
+    &-four-moves {
+        &-first-puzzle {
+            animation-duration: 15s;
+            animation-fill-mode: forwards;
+
+            &-wrapper {
+                display: flex;
+                flex-direction: column;
+            }
+
+            &-h2 {
+                left: $column-h;
+                bottom: $second-rank;
+            }
+
+            &-g2 {
+                left: $column-g;
+                bottom: $second-rank;
+            }
+
+            &-b3 {
+                left: $column-b;
+                bottom: $third-rank;
+            }
+
+            &-g5 {
+                left: $column-g;
+                bottom: $fifth-rank;
+            }
+
+            &-h5 {
+                left: $column-h;
+                bottom: $fifth-rank;
+            }
+
+            &-g4 {
+                left: $column-g;
+                bottom: $fourth-rank;
+            }
+
+            &-h4 {
+                left: $column-h;
+                bottom: $fourth-rank;
+            }
+        }
+
+        &-second-puzzle {
+            animation-duration: 15s;
+            animation-fill-mode: forwards;
+
+            &-wrapper {
+                display: flex;
+                flex-direction: column;
+            }
+
+            &-g5 {
+                left: $column-g;
+                bottom: $fifth-rank;
+            }
+
+            &-h4 {
+                left: $column-h;
+                bottom: $fourth-rank;
+            }
+
+            &-g3 {
+                left: $column-g;
+                bottom: $third-rank;
+            }
+
+            &-h7 {
+                left: $column-h;
+                bottom: $seventh-rank;
+            }
+
+            &-d6 {
+                left: $column-d;
+                bottom: $sixth-rank;
+            }
+
+            &-f7 {
+                left: $column-f;
+                bottom: $seventh-rank;
+            }
+
+            &-f4 {
+                left: $column-f;
+                bottom: $fourth-rank;
+            }
+
+            &-a6 {
+                left: $column-a;
+                bottom: $sixth-rank;
+            }
+
+            &-c8 {
+                left: $column-c;
+                bottom: $eight-rank;
+            }
+
+            &-c2 {
+                left: $column-c;
+                bottom: $second-rank;
+            }
+
+            &-b2 {
+                left: $column-b;
+                bottom: $second-rank;
+            }
+
+            &-f8 {
+                left: $column-f;
+                bottom: $eight-rank;
+            }
+
+            &-b7 {
+                left: $column-b;
+                bottom: $seventh-rank;
+            }
+        }
+    }
+
+    &-solution-button {
+        border: $primary-dark-border;
+        background-color: $primary-light;
+        border-radius: 1rem;
+        padding: 1rem 2rem;
+        margin: 0 auto;
+        width: 25%;
+        font-size: 18px;
+
+        &:hover {
+            background-color: $primary-dark;
+            color: $white;
+            border-color: $white;
+        }
+
+        &:focus {
+            outline: none;
         }
     }
 }
@@ -271,4 +614,68 @@
 
 .two-move-second-puzzle-black-knight {
     animation-name: two-move-second-puzzle-black-knight;
+}
+
+.three-move-first-puzzle-white-queen {
+    animation-name: three-move-first-puzzle-white-queen;
+}
+
+.three-move-first-puzzle-black-king {
+    animation-name: three-move-first-puzzle-black-king;
+}
+
+.three-move-second-puzzle-white-queen {
+    animation-name: three-move-second-puzzle-white-queen;
+}
+
+.three-move-second-puzzle-white-rook {
+    animation-name: three-move-second-puzzle-white-rook;
+}
+
+.three-move-second-puzzle-black-king {
+    animation-name: three-move-second-puzzle-black-king;
+}
+
+.four-move-first-puzzle-white-king {
+    animation-name: four-move-first-puzzle-white-king;
+}
+
+.four-move-first-puzzle-white-rook {
+    animation-name: four-move-first-puzzle-white-rook;
+}
+
+.four-move-first-puzzle-white-pawn {
+    animation-name: four-move-first-puzzle-white-pawn;
+}
+
+.four-move-first-puzzle-black-pawn-first {
+    animation-name: four-move-first-puzzle-black-pawn-first;
+}
+
+.four-move-first-puzzle-black-pawn-second {
+    animation-name: four-move-first-puzzle-black-pawn-second;
+}
+
+.four-move-second-puzzle-white-bishop {
+    animation-name: four-move-second-puzzle-white-bishop;
+}
+
+.four-move-second-puzzle-white-rook {
+    animation-name: four-move-second-puzzle-white-rook;
+}
+
+.four-move-second-puzzle-white-queen {
+    animation-name: four-move-second-puzzle-white-queen;
+}
+
+.four-move-second-puzzle-black-bishop {
+    animation-name: four-move-second-puzzle-black-bishop;
+}
+
+.four-move-second-puzzle-black-king {
+    animation-name: four-move-second-puzzle-black-king;
+}
+
+.four-move-second-puzzle-black-queen {
+    animation-name: four-move-second-puzzle-black-queen;
 }

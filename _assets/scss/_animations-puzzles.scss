@@ -148,3 +148,477 @@
         bottom: $seventh-rank;
     }
 }
+
+@keyframes three-move-first-puzzle-white-queen {
+    0% {
+        left: $column-g;
+        bottom: $third-rank;
+    }
+
+    20% {
+        left: $column-d;
+        bottom: $third-rank;
+    }
+
+    40% {
+        left: $column-d;
+        bottom: $third-rank;
+    }
+
+    60% {
+        left: $column-d;
+        bottom: $fourth-rank;
+    }
+
+    80% {
+        left: $column-d;
+        bottom: $fourth-rank;
+    }
+
+    100% {
+        left: $column-b;
+        bottom: $fourth-rank;
+    }
+}
+
+@keyframes three-move-first-puzzle-black-king {
+    0% {
+        left: $column-d;
+        bottom: $fifth-rank;
+    }
+
+    20% {
+        left: $column-d;
+        bottom: $fifth-rank;
+    }
+
+    40% {
+        left: $column-c;
+        bottom: $fifth-rank;
+    }
+
+    60% {
+        left: $column-c;
+        bottom: $fifth-rank;
+    }
+
+    80% {
+        left: $column-b;
+        bottom: $fifth-rank;
+    }
+
+    100% {
+        left: $column-b;
+        bottom: $fifth-rank;
+    }
+}
+
+@keyframes three-move-second-puzzle-white-queen {
+    0% {
+        left: $column-a;
+        bottom: $seventh-rank;
+    }
+
+    20% {
+        left: $column-a;
+        bottom: $seventh-rank;
+    }
+
+    40% {
+        left: $column-a;
+        bottom: $seventh-rank;
+    }
+
+    60% {
+        left: $column-a;
+        bottom: $seventh-rank;
+    }
+
+    80% {
+        left: $column-a;
+        bottom: $seventh-rank;
+    }
+
+    100% {
+        left: $column-e;
+        bottom: $seventh-rank;
+    }
+}
+
+@keyframes three-move-second-puzzle-white-rook {
+    0% {
+        left: $column-b;
+        bottom: $seventh-rank;
+    }
+
+    20% {
+        left: $column-e;
+        bottom: $seventh-rank;
+    }
+
+    40% {
+        left: $column-e;
+        bottom: $seventh-rank;
+    }
+
+    60% {
+        left: $column-e;
+        bottom: $eight-rank;
+        opacity: 1;
+    }
+
+    80% {
+        left: $column-e;
+        bottom: $eight-rank;
+        opacity: 0;
+    }
+
+    100% {
+        left: $column-e;
+        bottom: $eight-rank;
+        opacity: 0;
+    }
+}
+
+@keyframes three-move-second-puzzle-black-king {
+    0% {
+        left: $column-e;
+        bottom: $eight-rank;
+    }
+
+    20% {
+        left: $column-e;
+        bottom: $eight-rank;
+    }
+
+    40% {
+        left: $column-f;
+        bottom: $eight-rank;
+    }
+
+    60% {
+        left: $column-f;
+        bottom: $eight-rank;
+    }
+
+    80% {
+        left: $column-e;
+        bottom: $eight-rank;
+    }
+
+    100% {
+        left: $column-e;
+        bottom: $eight-rank;
+    }
+}
+
+@keyframes four-move-first-puzzle-white-king {
+    0% {
+        left: $column-g;
+        bottom: $second-rank;
+    }
+
+    14% {
+        left: $column-g;
+        bottom: $second-rank;
+    }
+
+    28% {
+        left: $column-g;
+        bottom: $second-rank;
+    }
+
+    42% {
+        left: $column-f;
+        bottom: $third-rank;
+    }
+
+    56% {
+        left: $column-f;
+        bottom: $third-rank;
+    }
+
+    70% {
+        left: $column-f;
+        bottom: $fourth-rank;
+    }
+
+    100% {
+        left: $column-f;
+        bottom: $fourth-rank;
+    }
+}
+
+@keyframes four-move-first-puzzle-white-rook {
+    0% {
+        left: $column-b;
+        bottom: $third-rank;
+    }
+
+    14% {
+        left: $column-h;
+        bottom: $third-rank;
+        opacity: 1;
+    }
+
+    28% {
+        left: $column-h;
+        bottom: $third-rank;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes four-move-first-puzzle-white-pawn {
+    0% {
+        left: $column-h;
+        bottom: $second-rank;
+    }
+
+    84% {
+        left: $column-h;
+        bottom: $second-rank;
+    }
+
+    98% {
+        left: $column-g;
+        bottom: $third-rank;
+    }
+
+    100% {
+        left: $column-g;
+        bottom: $third-rank;
+    }
+}
+
+@keyframes four-move-first-puzzle-black-pawn-first {
+    0% {
+        left: $column-g;
+        bottom: $fourth-rank;
+    }
+
+    14% {
+        left: $column-g;
+        bottom: $fourth-rank;
+    }
+
+    28% {
+        left: $column-h;
+        bottom: $third-rank;
+    }
+
+    100% {
+        left: $column-h;
+        bottom: $third-rank;
+    }
+}
+
+@keyframes four-move-first-puzzle-black-pawn-second {
+    0% {
+        left: $column-g;
+        bottom: $fifth-rank;
+    }
+
+    14% {
+        left: $column-g;
+        bottom: $fifth-rank;
+    }
+
+    28% {
+        left: $column-g;
+        bottom: $fifth-rank;
+    }
+
+    42% {
+        left: $column-g;
+        bottom: $fifth-rank;
+    }
+
+    56% {
+        left: $column-g;
+        bottom: $fourth-rank;
+    }
+
+    70% {
+        left: $column-g;
+        bottom: $fourth-rank;
+    }
+
+    84% {
+        left: $column-g;
+        bottom: $third-rank;
+        opacity: 1;
+    }
+
+    98% {
+        left: $column-g;
+        bottom: $third-rank;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes four-move-second-puzzle-white-bishop {
+    0% {
+        left: $column-f;
+        bottom: $seventh-rank;
+    }
+
+    14% {
+        left: $column-e;
+        bottom: $sixth-rank;
+    }
+
+    100% {
+        left: $column-e;
+        bottom: $sixth-rank;
+    }
+}
+
+@keyframes four-move-second-puzzle-white-rook {
+    0% {
+        left: $column-d;
+        bottom: $sixth-rank;
+    }
+
+    28% {
+        left: $column-d;
+        bottom: $sixth-rank;
+    }
+
+    42% {
+        left: $column-b;
+        bottom: $sixth-rank;
+    }
+
+    100% {
+        left: $column-b;
+        bottom: $sixth-rank;
+    }
+}
+
+@keyframes four-move-second-puzzle-white-queen {
+    0% {
+        left: $column-h;
+        bottom: $seventh-rank;
+    }
+
+    56% {
+        left: $column-h;
+        bottom: $seventh-rank;
+    }
+
+    70% {
+        left: $column-c;
+        bottom: $seventh-rank;
+    }
+
+    84% {
+        left: $column-c;
+        bottom: $seventh-rank;
+    }
+
+    98% {
+        left: $column-b;
+        bottom: $seventh-rank;
+    }
+
+    100% {
+        left: $column-b;
+        bottom: $seventh-rank;
+    }
+}
+
+@keyframes four-move-second-puzzle-black-queen {
+    0% {
+        left: $column-c;
+        bottom: $second-rank;
+    }
+
+    42% {
+        left: $column-c;
+        bottom: $second-rank;
+    }
+
+    56% {
+        left: $column-c;
+        bottom: $seventh-rank;
+        opacity: 1;
+    }
+
+    70% {
+        left: $column-c;
+        bottom: $seventh-rank;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes four-move-second-puzzle-black-bishop {
+    0% {
+        left: $column-b;
+        bottom: $seventh-rank;
+    }
+
+    84% {
+        left: $column-b;
+        bottom: $seventh-rank;
+        opacity: 1;
+    }
+
+    98% {
+        left: $column-b;
+        bottom: $seventh-rank;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes four-move-second-puzzle-black-king {
+    0% {
+        left: $column-c;
+        bottom: $eight-rank;
+    }
+
+    14% {
+        left: $column-c;
+        bottom: $eight-rank;
+    }
+
+    28% {
+        left: $column-b;
+        bottom: $eight-rank;
+    }
+
+    70% {
+        left: $column-b;
+        bottom: $eight-rank;
+    }
+
+    84% {
+        left: $column-a;
+        bottom: $seventh-rank;
+    }
+
+    98% {
+        left: $column-a;
+        bottom: $seventh-rank;
+    }
+
+    100% {
+        left: $column-a;
+        bottom: $seventh-rank;
+    }
+}

@@ -11,19 +11,19 @@ html {
   box-sizing: inherit; }
 
 html {
-  font: 12px/1.5 "Libre Baskerville", serif; }
+  font: 18px/1.5 "Libre Baskerville", serif; }
 
-@media screen and (min-width: 1000px) {
+@media (max-width: 2000px) {
   html {
-    font-size: 12px; } }
+    font-size: 18px; } }
 
-@media screen and (min-width: 1300px) {
+@media (max-width: 1600px) {
   html {
     font-size: 14px; } }
 
-@media screen and (min-width: 1600px) {
+@media (max-width: 1300px) {
   html {
-    font-size: 16px; } }
+    font-size: 12px; } }
 
 @-webkit-keyframes appear-first {
   0% {
@@ -1602,10 +1602,12 @@ header {
   background-color: #CEAA6A;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid #7F5732; }
-  .nav-bar-inner > ul {
-    display: flex;
-    margin-top: 1rem;
-    margin-right: 2rem; }
+  .nav-bar-inner {
+    margin: auto 0; }
+    .nav-bar-inner > ul {
+      display: flex;
+      margin-right: 2rem;
+      margin-top: 0.5rem; }
 
 nav li {
   list-style: none; }
@@ -1656,7 +1658,8 @@ nav li {
   color: white;
   font-size: 36px;
   cursor: pointer;
-  margin: 0 2rem; }
+  margin: 0 2rem;
+  padding: 1rem 0; }
   .nav-button:hover {
     color: #7F5732;
     transition: 0.5s; }
@@ -1691,6 +1694,21 @@ nav li {
   .footer p {
     margin: auto 0;
     color: white; }
+
+@media (max-width: 700px) {
+  .footer {
+    display: block; }
+    .footer-links {
+      margin: 0 auto;
+      justify-content: center;
+      padding: 0; }
+    .footer-copyright {
+      text-align: center;
+      padding: 1rem 0; }
+    .footer-icons {
+      margin: 0 auto;
+      justify-content: center;
+      padding: 0; } }
 
 .main-titles {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../../images/bg-img.jpg) no-repeat;
@@ -1779,7 +1797,8 @@ nav li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  background-color: #7F5732; }
+  background-color: #7F5732;
+  grid-template-areas: "column-1 column-2" "column-3 column-4" "column-5 column-6"; }
   .players-img img {
     display: block;
     width: 100%;
@@ -1789,6 +1808,55 @@ nav li {
     padding-left: 1rem;
     line-height: 1.6;
     color: white; }
+
+.carlsen-img {
+  grid-area: column-1; }
+
+.carlsen-description {
+  grid-area: column-2; }
+
+.kasparov-description {
+  grid-area: column-3; }
+
+.kasparov-img {
+  grid-area: column-4; }
+
+.caruana-img {
+  grid-area: column-5; }
+
+.caruana-description {
+  grid-area: column-6; }
+
+@media (max-width: 890px) {
+  .news {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 700px) {
+  .events {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    padding: 4rem 0; } }
+
+@media (max-width: 1099px) {
+  .players {
+    grid-template-columns: 1fr;
+    grid-template-areas: "column-1" "column-2" "column-4" "column-3" "column-5" "column-6"; }
+    .players-description p {
+      padding: 2rem 1rem;
+      line-height: 2; } }
+
+@media (max-width: 500px) {
+  .news-wrapper {
+    width: 100%; }
+  .news-events {
+    flex-direction: column; }
+  .events {
+    grid-template-columns: 1fr 0.5fr; }
+    .events-wrapper {
+      width: 100%;
+      padding: 0; }
+    .events-title {
+      margin-top: 2rem; } }
 
 .login-reg-wrapper {
   background: url(../../images/login-img.jpg) no-repeat center center fixed;
@@ -1801,7 +1869,7 @@ nav li {
   flex-direction: column;
   background: rgba(128, 128, 128, 0.4);
   text-align: center;
-  width: 66%;
+  width: 80%;
   margin: 0 auto;
   border: 3px solid gray;
   border-radius: 1rem;
@@ -1829,6 +1897,7 @@ nav li {
 
 .login-reg-btn {
   width: 15%;
+  min-width: 150px;
   margin: 0 auto;
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -1863,6 +1932,12 @@ nav li {
 .email:before {
   content: "\f0e0"; }
 
+@media (max-width: 600px) {
+  .login-reg-inner p:before {
+    left: 33%; }
+  .input {
+    width: 40%; } }
+
 .rules {
   background-color: #CEAA6A;
   color: black; }
@@ -1876,7 +1951,8 @@ nav li {
   .rules-content {
     width: 50%;
     margin: 0 auto;
-    padding: 2rem 0; }
+    padding: 2rem 0;
+    text-align: center; }
   .rules-checkmating {
     margin-top: 5rem;
     margin-bottom: 2rem; }
@@ -2240,7 +2316,7 @@ nav li {
     background-color: #CEAA6A;
     position: -webkit-sticky;
     position: sticky;
-    top: 15%;
+    top: 9%;
     width: 75%;
     margin: 2rem auto;
     border: 3px solid #7F5732;
@@ -2622,7 +2698,7 @@ nav li {
     border-radius: 1rem;
     padding: 1rem 2rem;
     margin: 0 auto;
-    width: 25%;
+    width: 200px;
     font-size: 18px; }
     .puzzles-solution-button:hover {
       background-color: #7F5732;
@@ -2723,6 +2799,15 @@ nav li {
   -webkit-animation-name: four-move-second-puzzle-black-queen;
           animation-name: four-move-second-puzzle-black-queen; }
 
+@media (max-width: 680px) {
+  .puzzles-pages-buttons,
+  .puzzles-wrapper {
+    flex-direction: column; }
+  .puzzles-pages-buttons {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center; } }
+
 .chessboard {
   position: relative;
   width: 560px;
@@ -2795,7 +2880,8 @@ nav li {
 .notation {
   position: absolute;
   color: #534F4F;
-  z-index: 1; }
+  z-index: 1;
+  font-weight: bold; }
 
 .file {
   bottom: 0; }
@@ -2834,3 +2920,63 @@ nav li {
     bottom: 83%; }
   .rank-8 {
     bottom: 95.5%; }
+
+@media (max-width: 2000px) {
+  .chessboard {
+    width: 560px;
+    height: 560px; }
+  .black-square,
+  .white-square {
+    width: 70px;
+    height: 70px; }
+  .piece {
+    width: 60px; } }
+
+@media (max-width: 1600px) {
+  .chessboard {
+    width: 480px;
+    height: 480px; }
+  .black-square,
+  .white-square {
+    width: 60px;
+    height: 60px; }
+  .piece {
+    width: 50px; } }
+
+@media (max-width: 1000px) {
+  .chessboard {
+    width: 400px;
+    height: 400px; }
+  .black-square,
+  .white-square {
+    width: 50px;
+    height: 50px; }
+  .piece {
+    width: 40px; }
+  .rank-1 {
+    bottom: 6%; }
+  .rank-2 {
+    bottom: 18.5%; }
+  .rank-3 {
+    bottom: 31%; }
+  .rank-4 {
+    bottom: 43.5%; }
+  .rank-5 {
+    bottom: 56%; }
+  .rank-6 {
+    bottom: 68.5%; }
+  .rank-7 {
+    bottom: 81%; }
+  .rank-8 {
+    bottom: 93.5%; } }
+
+@media (max-width: 800px) {
+  .chessboard {
+    width: 320px;
+    height: 320px; }
+  .black-square,
+  .white-square {
+    width: 40px;
+    height: 40px; }
+  .piece {
+    width: 30px; } }

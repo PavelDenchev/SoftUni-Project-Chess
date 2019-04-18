@@ -84,6 +84,7 @@
     position: absolute;
     color: #534F4F;
     z-index: 1;
+    font-weight: bold;
 }
 
 .file {
@@ -155,5 +156,107 @@
 
     &-8 {
         bottom: 95.5%;
+    }
+}
+
+@media (max-width: 2000px) {
+    .chessboard {
+        width: 560px;
+        height: 560px;
+    }
+
+    .black-square,
+    .white-square {
+        width: 70px;
+        height: 70px;
+    }
+
+    .piece {
+        width: 60px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .chessboard {
+        width: 480px;
+        height: 480px;
+    }
+
+    .black-square,
+    .white-square {
+        width: 60px;
+        height: 60px;
+    }
+
+    .piece {
+        width: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .chessboard {
+        width: 400px;
+        height: 400px;
+    }
+
+    .black-square,
+    .white-square {
+        width: 50px;
+        height: 50px;
+    }
+
+    .piece {
+        width: 40px;
+    }
+
+    .rank {
+        &-1 {
+            bottom: 6%;
+        }
+    
+        &-2 {
+            bottom: 18.5%;
+        }
+    
+        &-3 {
+            bottom: 31%;
+        }
+    
+        &-4 {
+            bottom: 43.5%;
+        }
+    
+        &-5 {
+            bottom: 56%;
+        }
+    
+        &-6 {
+            bottom: 68.5%;
+        }
+    
+        &-7 {
+            bottom: 81%;
+        }
+    
+        &-8 {
+            bottom: 93.5%;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .chessboard {
+        width: 320px;
+        height: 320px;
+    }
+
+    .black-square,
+    .white-square {
+        width: 40px;
+        height: 40px;
+    }
+
+    .piece {
+        width: 30px;
     }
 }

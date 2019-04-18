@@ -25,10 +25,14 @@ header {
     padding-bottom: 0.5rem;
     border-bottom: 3px solid $primary-dark;
 
-    &-inner>ul {
-        display: flex;
-        margin-top: 1rem;
-        margin-right: 2rem;
+    &-inner {
+        margin: auto 0;
+
+        &>ul {
+            display: flex;
+            margin-right: 2rem;
+            margin-top: 0.5rem;
+        }
     }
 }
 
@@ -94,6 +98,7 @@ nav li {
     font-size: $side-nav-btn-size;
     cursor: pointer;
     margin: 0 2rem;
+    padding: 1rem 0;
 
     &:hover {
         color: $primary-dark;

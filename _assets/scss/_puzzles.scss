@@ -573,7 +573,7 @@
         border-radius: 1rem;
         padding: 1rem 2rem;
         margin: 0 auto;
-        width: 25%;
+        width: 200px;
         font-size: 18px;
 
         &:hover {
@@ -678,4 +678,17 @@
 
 .four-move-second-puzzle-black-queen {
     animation-name: four-move-second-puzzle-black-queen;
+}
+
+@media (max-width: 680px) {
+    .puzzles-pages-buttons,
+    .puzzles-wrapper {
+        flex-direction: column;
+    }
+
+    .puzzles-pages-buttons {
+        margin: 0 auto;
+        width: 300px;
+        text-align: center;
+    }
 }

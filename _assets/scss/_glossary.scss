@@ -20,7 +20,7 @@
     &-contents {
         background-color: $primary-light;
         position: sticky;
-        top: 9%;
+        top: 12%;
         width: 75%;
         margin: 2rem auto;
         border: $primary-dark-border;
@@ -51,5 +51,17 @@
 
     &-term {
         margin: 1rem 0;
+    }
+}
+
+@media (max-width: 1600px) {
+    .glossary-contents {
+        top: 10%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .glossary-contents {
+        top: 9%;
     }
 }

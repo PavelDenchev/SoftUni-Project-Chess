@@ -2316,7 +2316,7 @@ nav li {
     background-color: #CEAA6A;
     position: -webkit-sticky;
     position: sticky;
-    top: 9%;
+    top: 12%;
     width: 75%;
     margin: 2rem auto;
     border: 3px solid #7F5732;
@@ -2337,6 +2337,14 @@ nav li {
     padding: 1rem 0; }
   .glossary-term {
     margin: 1rem 0; }
+
+@media (max-width: 1600px) {
+  .glossary-contents {
+    top: 10%; } }
+
+@media (max-width: 1300px) {
+  .glossary-contents {
+    top: 9%; } }
 
 .puzzles {
   background-color: #CEAA6A; }

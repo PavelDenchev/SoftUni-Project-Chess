@@ -17,8 +17,8 @@ title: ChessBlog
 email: pav.denchev@gmail.com
 description: This site is for an exam for SoftUni.
 destination: docs
-# baseurl: "" # the subpath of your site, e.g. /blog
-baseurl: "/SoftUni-Project-Chess"
+baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "/SoftUni-Project-Chess"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PavDenchev
 github_username:  PavelDenchev

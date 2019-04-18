@@ -1712,6 +1712,7 @@ nav li {
 .main-titles {
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: white;
   padding: 15rem 0;
   text-align: center;
@@ -1857,8 +1858,10 @@ nav li {
       margin-top: 2rem; } }
 
 .login-reg-wrapper {
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 11.55em 0; }
 
 .login-reg-inner {

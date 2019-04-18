@@ -1,7 +1,9 @@
 .login-reg {
     &-wrapper {
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
         padding: 11.55em 0;
     }
 

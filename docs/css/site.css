@@ -1665,7 +1665,6 @@ nav li {
     transition: 0.5s; }
 
 .footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../images/footer-bg-img.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -1711,7 +1710,6 @@ nav li {
       padding: 0; } }
 
 .main-titles {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../../images/bg-img.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
@@ -1859,7 +1857,6 @@ nav li {
       margin-top: 2rem; } }
 
 .login-reg-wrapper {
-  background: url(../../images/login-img.jpg) no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   padding: 11.55em 0; }
